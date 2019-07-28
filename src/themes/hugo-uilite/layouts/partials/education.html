@@ -1,0 +1,19 @@
+{{ $education := .Site.Data.education }}
+
+<section class={{ $education.color }}>
+  <h2 class="heading">{{ $education.title }}</h2>
+
+  <div class="row">
+    <ul class="ul-edu fa-ul">
+      {{ range  $index, $course := $education.courses }}
+      <li>
+        <i class="fa-li fas fa-graduation-cap" style="padding-top: 0.5rem;"></i>
+        <div class="description">
+          <p class="course">{{ $course.course }}{{ with $course.year }}, {{ . }}{{ end }}</p>
+          <p class="institution">{{ .institution }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,4 @@
+baseURL = "https://mahee.me/"
+languageCode = "en-us"
+title = "Mahee's"
+theme = "hugo-uilite"
