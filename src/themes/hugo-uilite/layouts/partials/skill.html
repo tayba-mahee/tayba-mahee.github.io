@@ -1,11 +1,10 @@
 {{ if .Site.Data.homepage.skill.enable }}
+
 <!-- skills -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">Skills</h2>
-      </div>
+<section class="{{ .Site.Data.homepage.color }}">
+      
+        <h2 class="heading">Skills</h2>
+        <div class="row">  
       {{ range .Site.Data.homepage.skill.skillbar }}
       <div class="col-lg-3 col-sm-6 mb-4">
         <div class="card shadow text-center">
@@ -18,7 +17,6 @@
         </div>
       </div>
       {{ end }}
-    </div>
   </div>
 </section>
 <!-- /skills -->

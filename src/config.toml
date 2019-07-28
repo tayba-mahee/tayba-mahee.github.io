@@ -2,3 +2,23 @@ baseURL = "https://tayba-mahee.github.io/"
 languageCode = "en-us"
 title = "Mahee's"
 theme = "hugo-uilite"
+
+# Plugins
+[params.plugins]
+  # CSS Plugins
+  [[params.plugins.css]]
+    URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+    URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+    URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+    URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+    URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+    URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+    URL = "plugins/shuffle/shuffle.min.js"
