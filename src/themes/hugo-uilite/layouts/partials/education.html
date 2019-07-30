@@ -1,6 +1,6 @@
 {{ $education := .Site.Data.education }}
 
-<section class={{ $education.color }}>
+<section class={{ $education.color }}  style="background-color: {{ .Site.Data.education.code }}">
   <h2 class="heading">{{ $education.title }}</h2>
 
   <div class="row">
@@ -9,8 +9,9 @@
       <li>
         <i class="fa-li fas fa-graduation-cap" style="padding-top: 0.5rem;"></i>
         <div class="description">
-          <p class="course">{{ $course.course }}{{ with $course.year }}, {{ . }}{{ end }}</p>
-          <p class="institution">{{ .institution }}</p>
+          <p class="course">{{ $course.course | markdownify }}{{ with $course.year | markdownify }}, {{ . }}{{ end }}</p>
+          <p class="institution">{{ .institution | markdownify }}</p>
+          <p style="font-size: 1.1rem; padding-top: 0.2rem">{{ .result | markdownify }}</p>
         </div>
       </li>
       {{ end }}

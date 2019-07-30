@@ -1,6 +1,6 @@
 {{ $about := .Site.Data.about }}
 
-<section class={{ $about.color }}>
+<section class={{ $about.color }}  style="background-color: {{ .Site.Data.about.code }}">
   <h2 class="heading">{{ $about.title }}</h2>
 
   <div class="row justify-content-md-center text-center" style="font-size: 1.2rem">

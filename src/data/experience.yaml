@@ -1,0 +1,16 @@
+enable: true
+title: Experience
+color: skin
+# code: "#bdecf6"
+experience: 
+- timeperiod: "Feb 2018 - Jan 2019"
+  company: "Lecturer, Department of CSE"
+  website: "[The Millennium University](http://www.themillenniumuniversity.edu.bd/)"
+  description: |
+    - Providing lectures, handling quiz, class tests, laboratory sections etc.
+    - Conducted “Web development-beginner’s course” for students.
+    - Implementing university research projects and involved in its publication.
+    - Involved in course team activities and curriculum development for students.
+    - Responsible for the departmental administrative tasks.
+    - Maintain and update website page for departmental events.
+    - Providing mentoring, advice and support to students on a personal level.

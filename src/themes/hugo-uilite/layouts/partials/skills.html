@@ -1,6 +1,6 @@
 {{ $skills := .Site.Data.skills }}
 
-<section id="skills" class="{{ $skills.color }}">
+<section id="skills" class="{{ $skills.color }}" style="background-color: {{ .Site.Data.skills.code }}">
   <h2 class="heading">{{ $skills.title }}</h2>
 
   {{ range $key, $value := $skills.skills }}

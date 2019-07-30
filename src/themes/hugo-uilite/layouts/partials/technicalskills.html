@@ -1,0 +1,17 @@
+{{ $technicalskills := .Site.Data.technicalskills }}
+
+<section class={{ $technicalskills.color }} style="background-color: {{ .Site.Data.technicalskills.code }}">
+  <h2 class="heading">{{ $technicalskills.title }}</h2>
+
+  <div class="row">
+    <ul style="font-size: 1.3rem;     margin-bottom: 0.2rem;">
+      {{ range  $key, $value := $technicalskills.skills }}
+      <li>
+        <div class="description">
+          <p class="technicalskills" style="margin-bottom: 0.2rem;">{{ $key | markdownify }}{{ with $value | markdownify }}: {{. }}{{ end }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+enable: true
+title: "Technical Skills"
+color: pink
+# code: "#bdecf6"
+skills:
+  Programming Languages: "`C/C++`, `PHP`, `Java`"
+  Version Control: "`git`"
+  Databases: "`MySQL`"
+  Operating Systems: "`Windows`, `Linux`"

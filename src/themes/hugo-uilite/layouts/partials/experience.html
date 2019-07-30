@@ -1,6 +1,6 @@
 {{ $experience := .Site.Data.experience }}
 
-<section id="experience" class={{ $experience.color }}>
+<section id="experience" class={{ $experience.color }} style="background-color: {{ .Site.Data.experience.code }}">
   <h2 class="heading">{{ $experience.title }}</h2>
   <div id="timeline">
     {{ range $index, $element := $experience.experience }}

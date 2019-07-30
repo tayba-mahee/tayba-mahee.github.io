@@ -1,0 +1,16 @@
+enable: true
+title: Projects
+color: blue
+# code: "#bdecf6"
+projects: 
+- icon: "pencil-ruler"
+  title: "Logo Design"
+  link: https://github.com/tayba-mahee
+  description: |
+    Nunc sapien nisi, maximus eleifend hendrerit sit amet, 
+    rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor.
+- icon: "pen-nib"
+  title: "Graphics Design"
+  link: https://github.com/tayba-mahee
+  description: |
+    "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "

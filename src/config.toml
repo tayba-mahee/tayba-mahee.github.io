@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Mahee's"
 theme = "hugo-uilite"
 
+[blackfriday] 
+  hrefTargetBlank = true
+
 # Plugins
 [params.plugins]
   # CSS Plugins

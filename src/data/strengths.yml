@@ -1,19 +1,31 @@
-color: yellow
+enable: true
+title: "Strengths"
+color: "orange"
+# code: "#ffbcaa"
 skill:
   enable : true
   skillbar:
     - title : "Web Design"
       progress : "90%"
       color : "#fdb157"
+      footercolor: "#fb7833"
       
     - title : "Logo Design"
       progress : "60%"
       color : "#9473e6"
+      footercolor: "#fb7833"
       
     - title : "After Effects"
       progress : "80%"
       color : "#bdecf6"
+      footercolor: "#fb7833"
       
     - title : "Web App"
       progress : "70%"
       color : "#ffbcaa"
+      footercolor: "#fb7833"
+    
+    - title : "Web App2"
+      progress : "70%"
+      color : "#17a2b8"
+      footercolor: "#fb7833"

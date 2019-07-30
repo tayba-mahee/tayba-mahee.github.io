@@ -1,17 +1,15 @@
-{{ if .Site.Data.homepage.skill.enable }}
-
 <!-- skills -->
-<section class="{{ .Site.Data.homepage.color }}">
+<section class="{{ .Site.Data.strengths.color }}" style="background-color: {{ .Site.Data.strengths.code }}">
       
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">{{.Site.Data.strengths.title}}</h2>
         <div class="row">  
-      {{ range .Site.Data.homepage.skill.skillbar }}
+      {{ range .Site.Data.strengths.skill.skillbar }}
       <div class="col-lg-3 col-sm-6 mb-4">
-        <div class="card shadow text-center">
+        <div class="card text-center">
           <div class="position-relative rounded-top progress-wrapper" data-color="{{.color}}">
             <div class="wave" data-progress="{{.progress}}"></div>
           </div>
-          <div class="card-footer bg-white">
+          <div class="card-footer" style="background: {{ .footercolor }}">
             <h4 class="card-title">{{.title }} ({{.progress}})</h4>
           </div>
         </div>
@@ -19,5 +17,3 @@
       {{ end }}
   </div>
 </section>
-<!-- /skills -->
-{{ end }}

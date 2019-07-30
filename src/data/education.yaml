@@ -1,0 +1,17 @@
+enable: true
+title: Education
+color: green
+# code: "#bdecf6"
+courses: 
+- course: "B.Sc. in Computer Science And Engineering"
+  institution: "*Chittagong University of Engineering and Technology*"
+  year: 2017
+  result: "CGPA: 3.36 out of 4.0"
+- course: "Higher Secondary Certificate"
+  institution: "*Govt. Hazi Muhammad Mohsin College, Chittagong*"
+  year: 2011
+  result: "GPA: 5.0 out of 5.0"
+- course: "Secondary School Certificale"
+  institution: "*Dr. Khastagir Govt. Girl’s High School, Chittagong*"
+  year: 2009
+  result: "GPA: 5.0 out of 5.0"
