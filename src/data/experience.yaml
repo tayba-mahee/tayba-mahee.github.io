@@ -1,16 +1,30 @@
 enable: true
 title: Experience
-color: skin
-# code: "#bdecf6"
+color: green
+code: "#c2e0da"
 experience: 
 - timeperiod: "Feb 2018 - Jan 2019"
   company: "Lecturer, Department of CSE"
   website: "[The Millennium University](http://www.themillenniumuniversity.edu.bd/)"
   description: |
-    - Providing lectures, handling quiz, class tests, laboratory sections etc.
+    - **Courses Taught**: Digital Logic Design, Data Structure, Algorithm Design, Numerical Analysis, Discrete Mathmatics, System Analysis and Design, DBMS 
+    - Providing lectures, handling quiz, class tests, laboratory sections.
     - Conducted “Web development-beginner’s course” for students.
     - Implementing university research projects and involved in its publication.
     - Involved in course team activities and curriculum development for students.
     - Responsible for the departmental administrative tasks.
     - Maintain and update website page for departmental events.
     - Providing mentoring, advice and support to students on a personal level.
+- timeperiod: "Aug 2017 - Oct 2017"
+  company: "Web application Development-PHP"
+  website: "[BITM, Bangladesh](http://www.bitm.org.bd/)"
+  description: |
+    - 3 month long training program.
+    - Creating dynamic website using PHP-MySQL platform
+    - Learned about creating web application software
+- timeperiod: "Jan 2016 - Feb 2016"
+  company: "Internship"
+  website: "[W3 Eden Inc., Chittagong, Bangladesh](https://w3eden.com/)"
+  description: |
+    - 2 week long internship program.
+    - Learned about basic e-commerce infrastructure design approach.

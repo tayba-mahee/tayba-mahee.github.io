@@ -1,31 +1,27 @@
 enable: true
-title: "Strengths"
-color: "orange"
-# code: "#ffbcaa"
+title: "Interests"
+color: "black"
+code: "#8ec6ba"
 skill:
   enable : true
   skillbar:
-    - title : "Web Design"
+    - title : "Painting"
       progress : "90%"
-      color : "#fdb157"
-      footercolor: "#fb7833"
+      color : "#fdc889"
+      footercolor: "#c1cecb"
       
-    - title : "Logo Design"
-      progress : "60%"
-      color : "#9473e6"
-      footercolor: "#fb7833"
+    - title : "Gardening"
+      progress : "90%"
+      color : "#beabf0"
+      footercolor: "#c1cecb"
       
-    - title : "After Effects"
-      progress : "80%"
+    - title : "Reading"
+      progress : "90%"
       color : "#bdecf6"
-      footercolor: "#fb7833"
+      footercolor: "#c1cecb"
       
-    - title : "Web App"
-      progress : "70%"
+    - title : "Music"
+      progress : "90%"
       color : "#ffbcaa"
-      footercolor: "#fb7833"
+      footercolor: "#c1cecb"
     
-    - title : "Web App2"
-      progress : "70%"
-      color : "#17a2b8"
-      footercolor: "#fb7833"

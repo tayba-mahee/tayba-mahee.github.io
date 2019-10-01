@@ -1,10 +1,10 @@
 enable: true
-title: Skills
+title: "Strengths"
 color: "aqua text-light"
-# code: "#bdecf6"
+code: "#9bccc2"
 skills: 
-  "Good verbal and written skill in Bengali and English": 70
-  "Planning & Organizing Skills": 80
-  "Motivating abilities": 75
-  "Negotiation & Persuasion": 77
-  "Active Listening": 77
+  "Communication": 80
+  "Planning & Organizing Skills": 85
+  "Optimist": 90
+  "Team Work": 85
+  "Organizing Skill": 85
