@@ -133,4 +133,4 @@ I'm always interested in collaborative research opportunities, particularly at t
 - AI ethics and fairness
 - Educational technology and learning analytics
 
-If you're working in these areas or have research collaboration ideas, please [contact me](/about/#contact).
+If you're working in these areas or have research collaboration ideas, please [contact me](/#contact).

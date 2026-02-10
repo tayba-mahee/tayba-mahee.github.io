@@ -76,4 +76,4 @@ My research focuses on the following domains:
 
 ---
 
-For collaboration opportunities or questions about my research, please feel free to [contact me](/about/#contact).
+For collaboration opportunities or questions about my research, please feel free to [contact me](/#contact).
