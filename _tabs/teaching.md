@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-chalkboard-teacher
-order: 5
+order: 2
 ---
 
 ## Teaching Experience

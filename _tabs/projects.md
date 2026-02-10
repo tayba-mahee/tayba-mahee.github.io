@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-laptop-code
-order: 2
+order: 5
 ---
 
 ## Featured Projects

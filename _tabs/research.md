@@ -1,7 +1,7 @@
 ---
 layout: page
 icon: fas fa-microscope
-order: 6
+order: 3
 ---
 
 ## Research Experience

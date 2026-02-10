@@ -41,3 +41,7 @@ This work is published under [MIT][mit] License.
 [chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
 [CD]: https://en.wikipedia.org/wiki/Continuous_deployment
 [mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+
+
+last session resume : copilot 
+ --resume=584d94c2-7eb2-4945-b9b0-d4e842d4aa95s
