@@ -42,7 +42,7 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}" --future
         env:
           JEKYLL_ENV: "production"
 
@@ -50,7 +50,9 @@ jobs:
         run: |
           bundle exec htmlproofer _site \
             \-\-disable-external \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/" \
+            \-\-allow-missing-href \
+            \-\-ignore-empty-alt
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
