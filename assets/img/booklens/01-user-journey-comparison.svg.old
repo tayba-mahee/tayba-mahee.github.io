@@ -1,0 +1,105 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#F4F5EE"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#222225" text-anchor="middle">User Journey Comparison</text>
+  
+  <!-- Current Experience Section -->
+  <text x="300" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E74C3C" text-anchor="middle">CURRENT EXPERIENCE</text>
+  
+  <!-- Current Journey Steps -->
+  <g transform="translate(50, 100)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="white" stroke="#E74C3C" stroke-width="2"/>
+    <text x="75" y="35" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Browse shelf</text>
+    
+    <!-- Arrow -->
+    <path d="M 75 70 L 75 90" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 2 -->
+    <rect x="0" y="100" width="150" height="60" rx="8" fill="white" stroke="#E74C3C" stroke-width="2"/>
+    <text x="75" y="125" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Find</text>
+    <text x="75" y="140" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">interesting book</text>
+    
+    <path d="M 75 170 L 75 190" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 3 -->
+    <rect x="0" y="200" width="150" height="60" rx="8" fill="white" stroke="#E74C3C" stroke-width="2"/>
+    <text x="75" y="225" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Pull out phone &amp;</text>
+    <text x="75" y="240" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">search Goodreads</text>
+    
+    <path d="M 75 270 L 75 290" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 4 -->
+    <rect x="0" y="300" width="150" height="60" rx="8" fill="white" stroke="#E74C3C" stroke-width="2"/>
+    <text x="75" y="325" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Read reviews &amp;</text>
+    <text x="75" y="340" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">check Amazon</text>
+    
+    <path d="M 75 370 L 75 390" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 5 -->
+    <rect x="0" y="400" width="150" height="60" rx="8" fill="white" stroke="#E74C3C" stroke-width="2"/>
+    <text x="75" y="425" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Compare &amp;</text>
+    <text x="75" y="440" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">make decision</text>
+  </g>
+  
+  <!-- Pain Points -->
+  <g transform="translate(220, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#E74C3C" font-weight="bold">⚠ Pain Points:</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">• Context switching</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">• Slow process</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">• Multiple apps</text>
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="12" fill="#E74C3C">• Information overload</text>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="600" y1="60" x2="600" y2="540" stroke="#222225" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Proposed Experience Section -->
+  <text x="900" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27AE60" text-anchor="middle">BOOKLENS EXPERIENCE</text>
+  
+  <!-- Proposed Journey Steps -->
+  <g transform="translate(750, 100)">
+    <!-- Step 1 -->
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="white" stroke="#27AE60" stroke-width="2"/>
+    <text x="75" y="35" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Browse shelf</text>
+    
+    <path d="M 75 70 L 75 90" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 2 -->
+    <rect x="0" y="100" width="150" height="60" rx="8" fill="white" stroke="#27AE60" stroke-width="2"/>
+    <text x="75" y="125" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Point camera</text>
+    <text x="75" y="140" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">at book</text>
+    
+    <path d="M 75 170 L 75 190" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 3 -->
+    <rect x="0" y="200" width="150" height="60" rx="8" fill="white" stroke="#27AE60" stroke-width="2"/>
+    <text x="75" y="225" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">View AR overlay</text>
+    <text x="75" y="240" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">with info</text>
+    
+    <path d="M 75 270 L 75 290" stroke="#222225" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Step 4 -->
+    <rect x="0" y="300" width="150" height="60" rx="8" fill="white" stroke="#27AE60" stroke-width="2"/>
+    <text x="75" y="325" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">Make confident</text>
+    <text x="75" y="340" font-family="Arial, sans-serif" font-size="13" fill="#222225" text-anchor="middle">decision</text>
+  </g>
+  
+  <!-- Benefits -->
+  <g transform="translate(920, 200)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#27AE60" font-weight="bold">✓ Benefits:</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" fill="#27AE60">• Seamless experience</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" fill="#27AE60">• Fast decisions</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="12" fill="#27AE60">• Single interface</text>
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="12" fill="#27AE60">• Focused information</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#222225"/>
+    </marker>
+  </defs>
+</svg>

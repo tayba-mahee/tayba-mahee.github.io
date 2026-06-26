@@ -1,0 +1,80 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hero Image for BookLens -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#348CD5;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#A678F0;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Bookshelf Background -->
+  <g transform="translate(50, 100)">
+    <!-- Books on shelf (simplified) -->
+    <rect x="0" y="350" width="1100" height="30" fill="#8D6E63" rx="3"/>
+    
+    <!-- Book spines -->
+    <rect x="50" y="240" width="60" height="150" fill="#5C6BC0" rx="3"/>
+    <text x="80" y="285" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" transform="rotate(-90 80 315)">CLASSIC</text>
+    
+    <rect x="120" y="260" width="50" height="130" fill="#EC407A" rx="3"/>
+    <rect x="180" y="220" width="65" height="170" fill="#26A69A" rx="3"/>
+    <rect x="255" y="250" width="55" height="140" fill="#FF7043" rx="3"/>
+    <rect x="320" y="230" width="60" height="160" fill="#AB47BC" rx="3"/>
+    <rect x="390" y="270" width="50" height="120" fill="#42A5F5" rx="3"/>
+  </g>
+  
+  <!-- Phone/Device showing AR overlay -->
+  <g transform="translate(650, 150)">
+    <!-- Device frame -->
+    <rect x="0" y="0" width="300" height="450" rx="25" fill="#263238" stroke="#1A252F" stroke-width="4"/>
+    <rect x="12" y="12" width="276" height="426" rx="20" fill="#1A1A1A"/>
+    
+    <!-- Camera notch -->
+    <rect x="120" y="12" width="60" height="8" rx="4" fill="#263238"/>
+    
+    <!-- Screen content - book cover with AR overlay -->
+    <rect x="12" y="35" width="276" height="403" rx="15" fill="#2C2C2C"/>
+    
+    <!-- Book cover simulation -->
+    <rect x="40" y="80" width="220" height="250" fill="#5C6BC0" rx="5"/>
+    <text x="150" y="140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">THE</text>
+    <text x="150" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">GREAT</text>
+    <text x="150" y="190" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">GATSBY</text>
+    <text x="150" y="305" font-family="Arial, sans-serif" font-size="12" fill="#E0E0E0" text-anchor="middle">F. Scott Fitzgerald</text>
+    
+    <!-- AR Information Overlay -->
+    <rect x="40" y="350" width="220" height="70" rx="8" fill="rgba(0, 0, 0, 0.85)" stroke="#348CD5" stroke-width="2"/>
+    
+    <!-- Rating stars -->
+    <g transform="translate(60, 368)">
+      <text x="0" y="12" font-family="Arial, sans-serif" font-size="11" fill="#FFD700">★★★★★</text>
+      <text x="70" y="12" font-family="Arial, sans-serif" font-size="11" fill="#90CAF9">4.5</text>
+    </g>
+    
+    <!-- Info text -->
+    <text x="60" y="395" font-family="Arial, sans-serif" font-size="9" fill="#B0BEC5">Classic Literature • 1925</text>
+    <text x="60" y="410" font-family="Arial, sans-serif" font-size="9" fill="#66BB6A">In Stock • $12.99</text>
+    
+    <!-- Scan indicator -->
+    <circle cx="250" cy="50" r="6" fill="#348CD5"/>
+    <text x="220" y="54" font-family="Arial, sans-serif" font-size="9" fill="#348CD5" font-weight="bold">SCAN</text>
+  </g>
+  
+  <!-- Title and tagline -->
+  <g transform="translate(100, 480)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#348CD5">BookLens</text>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="20" fill="#666">AR Book Discovery Experience</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" fill="#999">Scan • Discover • Decide</text>
+  </g>
+  
+  <!-- AR effect lines -->
+  <g opacity="0.3">
+    <line x1="600" y1="280" x2="650" y2="280" stroke="#348CD5" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="600" y1="320" x2="650" y2="320" stroke="#348CD5" stroke-width="2" stroke-dasharray="5,5"/>
+    <circle cx="620" cy="300" r="3" fill="#348CD5"/>
+    <circle cx="630" cy="340" r="3" fill="#A678F0"/>
+  </g>
+</svg>

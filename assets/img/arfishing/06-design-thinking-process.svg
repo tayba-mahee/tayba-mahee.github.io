@@ -1,0 +1,103 @@
+<svg width="1200" height="280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="oceanBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#17A2B8;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#4FC3DC;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="280" fill="url(#oceanBg)"/>
+  
+  <!-- Title -->
+  <text x="600" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#222225" text-anchor="middle">Design Thinking Process</text>
+  
+  <!-- Stage 1: Empathize -->
+  <g transform="translate(40, 80)">
+    <rect x="0" y="0" width="200" height="160" rx="12" fill="white" stroke="#17A2B8" stroke-width="2"/>
+    <rect x="0" y="0" width="200" height="45" rx="12" fill="#17A2B8" opacity="0.15"/>
+    
+    <text x="100" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#17A2B8" text-anchor="middle">Empathize</text>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222225" text-anchor="middle">🎣 Research</text>
+    <text x="100" y="100" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Literature review on</text>
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">sustainable fishing</text>
+    <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Understanding fishermen</text>
+    <text x="100" y="150" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">needs &amp; behaviors</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M 250 160 L 280 160" stroke="#17A2B8" stroke-width="2" fill="none" marker-end="url(#arrowTeal)"/>
+  
+  <!-- Stage 2: Define -->
+  <g transform="translate(280, 80)">
+    <rect x="0" y="0" width="200" height="160" rx="12" fill="white" stroke="#0B7A8F" stroke-width="2"/>
+    <rect x="0" y="0" width="200" height="45" rx="12" fill="#0B7A8F" opacity="0.15"/>
+    
+    <text x="100" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0B7A8F" text-anchor="middle">Define</text>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222225" text-anchor="middle">🎯 Problem</text>
+    <text x="100" y="100" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">How might we provide</text>
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">real-time sustainable</text>
+    <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">fishing guidance without</text>
+    <text x="100" y="150" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">interrupting workflow?</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M 490 160 L 520 160" stroke="#0B7A8F" stroke-width="2" fill="none" marker-end="url(#arrowTeal)"/>
+  
+  <!-- Stage 3: Ideate -->
+  <g transform="translate(520, 80)">
+    <rect x="0" y="0" width="200" height="160" rx="12" fill="white" stroke="#17A2B8" stroke-width="2"/>
+    <rect x="0" y="0" width="200" height="45" rx="12" fill="#17A2B8" opacity="0.15"/>
+    
+    <text x="100" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#17A2B8" text-anchor="middle">Ideate</text>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222225" text-anchor="middle">💡 Solutions</text>
+    <text x="100" y="100" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">AR overlay concepts</text>
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Computer vision</text>
+    <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Hands-free interface</text>
+    <text x="100" y="150" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">design patterns</text>
+  </g>
+  
+  <!-- Arrow 3 -->
+  <path d="M 730 160 L 760 160" stroke="#17A2B8" stroke-width="2" fill="none" marker-end="url(#arrowTeal)"/>
+  
+  <!-- Stage 4: Prototype -->
+  <g transform="translate(760, 80)">
+    <rect x="0" y="0" width="200" height="160" rx="12" fill="white" stroke="#4FC3DC" stroke-width="2"/>
+    <rect x="0" y="0" width="200" height="45" rx="12" fill="#4FC3DC" opacity="0.15"/>
+    
+    <text x="100" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#4FC3DC" text-anchor="middle">Prototype</text>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222225" text-anchor="middle">🔨 Build</text>
+    <text x="100" y="100" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">High-fidelity interface</text>
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">mockups</text>
+    <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Interactive AR flow</text>
+    <text x="100" y="150" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">demonstrations</text>
+  </g>
+  
+  <!-- Arrow 4 -->
+  <path d="M 970 160 L 1000 160" stroke="#4FC3DC" stroke-width="2" fill="none" marker-end="url(#arrowTeal)"/>
+  
+  <!-- Stage 5: Test -->
+  <g transform="translate(1000, 80)">
+    <rect x="0" y="0" width="200" height="160" rx="12" fill="white" stroke="#20C997" stroke-width="2"/>
+    <rect x="0" y="0" width="200" height="45" rx="12" fill="#20C997" opacity="0.15"/>
+    
+    <text x="100" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#20C997" text-anchor="middle">Test</text>
+    
+    <text x="100" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222225" text-anchor="middle">✓ Evaluate</text>
+    <text x="100" y="100" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Informal usability</text>
+    <text x="100" y="115" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">testing</text>
+    <text x="100" y="135" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Gather feedback &amp;</text>
+    <text x="100" y="150" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">iterate on design</text>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowTeal" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#17A2B8" />
+    </marker>
+  </defs>
+</svg>

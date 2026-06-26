@@ -1,0 +1,85 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hero Image for AR Fishing -->
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#006994;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#004B6E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003D5C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81D4FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4FC3F7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="1200" height="200" fill="url(#skyGrad)"/>
+  
+  <!-- Ocean Background -->
+  <rect y="200" width="1200" height="430" fill="url(#oceanGrad)"/>
+  
+  <!-- Water Line -->
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="#00ACC1" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Fishing Rod (simplified) -->
+  <g transform="translate(100, 50)">
+    <line x1="0" y1="0" x2="100" y2="150" stroke="#8D6E63" stroke-width="8" stroke-linecap="round"/>
+    <line x1="100" y1="150" x2="150" y2="400" stroke="#546E7A" stroke-width="2"/>
+  </g>
+  
+  <!-- Device Display on Rod -->
+  <g transform="translate(180, 180)">
+    <!-- Device Frame -->
+    <rect x="0" y="0" width="280" height="200" rx="12" fill="#263238" stroke="#1A252F" stroke-width="3"/>
+    <rect x="8" y="8" width="264" height="184" rx="8" fill="#0A1929"/>
+    
+    <!-- AR Overlay Simulation -->
+    <rect x="8" y="8" width="264" height="184" rx="8" fill="url(#oceanGrad)" opacity="0.8"/>
+    
+    <!-- Fish Silhouette -->
+    <ellipse cx="140" cy="110" rx="60" ry="25" fill="#45637D" opacity="0.6"/>
+    <ellipse cx="165" cy="100" rx="15" ry="18" fill="#45637D" opacity="0.6"/>
+    <path d="M 80 110 L 60 100 L 60 120 Z" fill="#45637D" opacity="0.6"/>
+    
+    <!-- AR Info Box -->
+    <rect x="20" y="25" width="150" height="85" rx="6" fill="rgba(0, 0, 0, 0.8)" stroke="#26A69A" stroke-width="2"/>
+    <text x="95" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Salmon</text>
+    <rect x="30" y="52" width="70" height="18" rx="9" fill="#FF9800"/>
+    <text x="65" y="64" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">PROTECTED</text>
+    <text x="30" y="82" font-family="Arial, sans-serif" font-size="11" fill="#E0E0E0">Size: 18.5"</text>
+    <text x="30" y="100" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#EF5350">DO NOT CATCH</text>
+    
+    <!-- Live Indicator -->
+    <circle cx="250" cy="20" r="5" fill="#26A69A"/>
+    <text x="235" y="24" font-family="Arial, sans-serif" font-size="9" fill="#26A69A" font-weight="bold">LIVE</text>
+  </g>
+  
+  <!-- Underwater Fish (larger) -->
+  <g transform="translate(700, 380)">
+    <ellipse cx="0" cy="0" rx="80" ry="35" fill="#4A7C8C" opacity="0.5"/>
+    <ellipse cx="40" cy="-10" rx="20" ry="25" fill="#4A7C8C" opacity="0.5"/>
+    <path d="M -80 0 L -110 -15 L -110 15 Z" fill="#4A7C8C" opacity="0.5"/>
+    <circle cx="-50" cy="-8" r="4" fill="#7FA8B8"/>
+  </g>
+  
+  <g transform="translate(900, 480)">
+    <ellipse cx="0" cy="0" rx="60" ry="25" fill="#5A8C9C" opacity="0.4"/>
+    <ellipse cx="30" cy="-8" rx="15" ry="18" fill="#5A8C9C" opacity="0.4"/>
+    <path d="M -60 0 L -85 -12 L -85 12 Z" fill="#5A8C9C" opacity="0.4"/>
+  </g>
+  
+  <!-- Title and Subtitle -->
+  <g transform="translate(550, 300)">
+    <rect x="0" y="0" width="600" height="150" rx="15" fill="rgba(0, 0, 0, 0.7)"/>
+    <text x="300" y="50" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#26A69A" text-anchor="middle">AR Fishing</text>
+    <text x="300" y="85" font-family="Arial, sans-serif" font-size="18" fill="#B0BEC5" text-anchor="middle">Sustainable Decision Support System</text>
+    <text x="300" y="115" font-family="Arial, sans-serif" font-size="14" fill="#90CAF9" text-anchor="middle">Real-time species identification • Conservation guidance</text>
+  </g>
+  
+  <!-- Bubbles -->
+  <circle cx="400" cy="520" r="8" fill="#4FC3F7" opacity="0.3"/>
+  <circle cx="420" cy="480" r="6" fill="#4FC3F7" opacity="0.3"/>
+  <circle cx="950" cy="350" r="10" fill="#4FC3F7" opacity="0.3"/>
+  <circle cx="980" cy="390" r="7" fill="#4FC3F7" opacity="0.3"/>
+  <circle cx="320" cy="560" r="5" fill="#4FC3F7" opacity="0.3"/>
+</svg>

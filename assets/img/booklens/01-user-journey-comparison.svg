@@ -1,0 +1,124 @@
+<svg width="1200" height="550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#348CD5;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#A678F0;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="550" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="600" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#222225" text-anchor="middle">User Journey Comparison</text>
+  
+  <!-- Current Experience (Left) -->
+  <g transform="translate(40, 80)">
+    <rect x="0" y="0" width="540" height="420" rx="12" fill="white" stroke="#348CD5" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="540" height="50" rx="12" fill="#348CD5" opacity="0.15"/>
+    <text x="270" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#348CD5" text-anchor="middle">Current Experience</text>
+    
+    <!-- Steps -->
+    <g transform="translate(30, 80)">
+      <!-- Step 1 -->
+      <circle cx="0" cy="0" r="25" fill="#348CD5" opacity="0.15" stroke="#348CD5" stroke-width="2"/>
+      <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#348CD5" text-anchor="middle">1</text>
+      <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Browse bookstore physically</text>
+      
+      <!-- Arrow -->
+      <path d="M 12 40 L 12 75" stroke="#348CD5" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+      
+      <!-- Step 2 -->
+      <g transform="translate(0, 90)">
+        <circle cx="0" cy="0" r="25" fill="#5CA3DC" opacity="0.15" stroke="#5CA3DC" stroke-width="2"/>
+        <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5CA3DC" text-anchor="middle">2</text>
+        <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Pull out phone &amp; open apps</text>
+        <text x="50" y="24" font-family="Arial, sans-serif" font-size="11" fill="#666">7-12 minute research per book</text>
+      </g>
+      
+      <!-- Arrow -->
+      <path d="M 12 130 L 12 165" stroke="#5CA3DC" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+      
+      <!-- Step 3 -->
+      <g transform="translate(0, 180)">
+        <circle cx="0" cy="0" r="25" fill="#7B89E1" opacity="0.15" stroke="#7B89E1" stroke-width="2"/>
+        <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7B89E1" text-anchor="middle">3</text>
+        <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Read reviews &amp; compare ratings</text>
+        <text x="50" y="24" font-family="Arial, sans-serif" font-size="11" fill="#666">Multiple apps and sources</text>
+      </g>
+      
+      <!-- Arrow -->
+      <path d="M 12 220 L 12 255" stroke="#7B89E1" stroke-width="2" fill="none" marker-end="url(#arrowBlue)"/>
+      
+      <!-- Step 4 -->
+      <g transform="translate(0, 270)">
+        <circle cx="0" cy="0" r="25" fill="#9B7FE5" opacity="0.15" stroke="#9B7FE5" stroke-width="2"/>
+        <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9B7FE5" text-anchor="middle">4</text>
+        <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Make purchase decision</text>
+        <text x="50" y="24" font-family="Arial, sans-serif" font-size="11" fill="#666">Often leaves without buying</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- With BookLens (Right) -->
+  <g transform="translate(620, 80)">
+    <rect x="0" y="0" width="540" height="420" rx="12" fill="white" stroke="#A678F0" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="540" height="50" rx="12" fill="#A678F0" opacity="0.15"/>
+    <text x="270" y="32" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#A678F0" text-anchor="middle">With BookLens</text>
+    
+    <!-- Steps -->
+    <g transform="translate(30, 80)">
+      <!-- Step 1 -->
+      <circle cx="0" cy="0" r="25" fill="#7B89E1" opacity="0.15" stroke="#7B89E1" stroke-width="2"/>
+      <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#7B89E1" text-anchor="middle">1</text>
+      <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Browse bookstore physically</text>
+      
+      <!-- Arrow -->
+      <path d="M 12 40 L 12 75" stroke="#7B89E1" stroke-width="2" fill="none" marker-end="url(#arrowPurple)"/>
+      
+      <!-- Step 2 -->
+      <g transform="translate(0, 90)">
+        <circle cx="0" cy="0" r="25" fill="#9B7FE5" opacity="0.15" stroke="#9B7FE5" stroke-width="2"/>
+        <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9B7FE5" text-anchor="middle">2</text>
+        <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Scan book with AR camera</text>
+        <text x="50" y="24" font-family="Arial, sans-serif" font-size="11" fill="#666">Instant overlay of information</text>
+      </g>
+      
+      <!-- Arrow -->
+      <path d="M 12 130 L 12 165" stroke="#9B7FE5" stroke-width="2" fill="none" marker-end="url(#arrowPurple)"/>
+      
+      <!-- Step 3 -->
+      <g transform="translate(0, 180)">
+        <circle cx="0" cy="0" r="25" fill="#A678F0" opacity="0.15" stroke="#A678F0" stroke-width="2"/>
+        <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#A678F0" text-anchor="middle">3</text>
+        <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">View ratings &amp; reviews instantly</text>
+        <text x="50" y="24" font-family="Arial, sans-serif" font-size="11" fill="#666">No app switching needed</text>
+      </g>
+      
+      <!-- Arrow -->
+      <path d="M 12 220 L 12 255" stroke="#A678F0" stroke-width="2" fill="none" marker-end="url(#arrowPurple)"/>
+      
+      <!-- Step 4 -->
+      <g transform="translate(0, 270)">
+        <circle cx="0" cy="0" r="25" fill="#A678F0" opacity="0.2" stroke="#A678F0" stroke-width="2"/>
+        <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#A678F0" text-anchor="middle">4</text>
+        <text x="50" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225">Make confident decision</text>
+        <text x="50" y="24" font-family="Arial, sans-serif" font-size="11" fill="#666">Seamless browsing experience</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#348CD5" />
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#A678F0" />
+    </marker>
+  </defs>
+</svg>

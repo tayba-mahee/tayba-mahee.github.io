@@ -1,0 +1,132 @@
+<svg width="1200" height="480" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="oceanBg4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#17A2B8;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#4FC3DC;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="480" fill="url(#oceanBg4)"/>
+  
+  <!-- Title -->
+  <text x="600" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#222225" text-anchor="middle">AR Interface Wireframes</text>
+  
+  <!-- Screen 1: Detection -->
+  <g transform="translate(80, 80)">
+    <!-- Phone frame -->
+    <rect x="0" y="0" width="300" height="360" rx="20" fill="white" stroke="#17A2B8" stroke-width="3"/>
+    <rect x="10" y="10" width="280" height="340" rx="12" fill="#E8F9FB"/>
+    
+    <!-- Status bar -->
+    <rect x="15" y="15" width="270" height="25" rx="6" fill="#17A2B8" opacity="0.1"/>
+    <text x="150" y="32" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#17A2B8" text-anchor="middle">STEP 1: Detection View</text>
+    
+    <!-- Camera view simulation -->
+    <rect x="25" y="55" width="250" height="200" rx="8" fill="#17A2B8" opacity="0.05" stroke="#17A2B8" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="150" y="125" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">📷</text>
+    <text x="150" y="145" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Underwater</text>
+    <text x="150" y="161" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Camera View</text>
+    
+    <!-- Detection indicator -->
+    <circle cx="150" cy="200" r="35" fill="none" stroke="#17A2B8" stroke-width="2" stroke-dasharray="6,3"/>
+    <text x="150" y="250" font-family="Arial, sans-serif" font-size="10" fill="#17A2B8" font-weight="bold" text-anchor="middle">Scanning for fish...</text>
+    
+    <!-- Bottom info -->
+    <rect x="25" y="275" width="250" height="60" rx="8" fill="white" stroke="#17A2B8" stroke-width="1.5"/>
+    <text x="150" y="295" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#222225" text-anchor="middle">Camera Active</text>
+    <text x="150" y="312" font-family="Arial, sans-serif" font-size="9" fill="#666" text-anchor="middle">Position rod near fish</text>
+    <text x="150" y="327" font-family="Arial, sans-serif" font-size="9" fill="#666" text-anchor="middle">to begin identification</text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M 390 260 L 440 260" stroke="#17A2B8" stroke-width="3" fill="none" marker-end="url(#arrowTeal3)"/>
+  
+  <!-- Screen 2: Identification -->
+  <g transform="translate(440, 80)">
+    <!-- Phone frame -->
+    <rect x="0" y="0" width="300" height="360" rx="20" fill="white" stroke="#0B7A8F" stroke-width="3"/>
+    <rect x="10" y="10" width="280" height="340" rx="12" fill="#E8F9FB"/>
+    
+    <!-- Status bar -->
+    <rect x="15" y="15" width="270" height="25" rx="6" fill="#0B7A8F" opacity="0.1"/>
+    <text x="150" y="32" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#0B7A8F" text-anchor="middle">STEP 2: Identification</text>
+    
+    <!-- Camera view with fish -->
+    <rect x="25" y="55" width="250" height="200" rx="8" fill="#17A2B8" opacity="0.05" stroke="#0B7A8F" stroke-width="1" stroke-dasharray="4,4"/>
+    <text x="150" y="115" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">🐟</text>
+    
+    <!-- AR Overlay box -->
+    <rect x="50" y="145" width="200" height="85" rx="6" fill="#0B7A8F" opacity="0.95"/>
+    <text x="150" y="163" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Rainbow Trout</text>
+    <text x="150" y="180" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Oncorhynchus mykiss</text>
+    
+    <rect x="60" y="190" width="180" height="30" rx="4" fill="white" opacity="0.15"/>
+    <text x="150" y="205" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Status: Sustainable</text>
+    <text x="150" y="217" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">✓ Safe to catch</text>
+    
+    <!-- Bottom button -->
+    <rect x="40" y="280" width="220" height="50" rx="8" fill="#20C997"/>
+    <text x="150" y="305" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">View Details →</text>
+    <text x="150" y="320" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle">Tap for more information</text>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M 750 260 L 800 260" stroke="#0B7A8F" stroke-width="3" fill="none" marker-end="url(#arrowTeal3)"/>
+  
+  <!-- Screen 3: Decision Support -->
+  <g transform="translate(800, 80)">
+    <!-- Phone frame -->
+    <rect x="0" y="0" width="300" height="360" rx="20" fill="white" stroke="#20C997" stroke-width="3"/>
+    <rect x="10" y="10" width="280" height="340" rx="12" fill="#E8F9FB"/>
+    
+    <!-- Status bar -->
+    <rect x="15" y="15" width="270" height="25" rx="6" fill="#20C997" opacity="0.1"/>
+    <text x="150" y="32" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#20C997" text-anchor="middle">STEP 3: Decision Support</text>
+    
+    <!-- Header -->
+    <text x="150" y="60" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225" text-anchor="middle">Rainbow Trout</text>
+    <text x="150" y="76" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">Detailed Information</text>
+    
+    <!-- Info cards -->
+    <g transform="translate(25, 90)">
+      <!-- Conservation Status -->
+      <rect x="0" y="0" width="250" height="50" rx="8" fill="#20C997" opacity="0.1" stroke="#20C997" stroke-width="1.5"/>
+      <text x="10" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#20C997">Conservation Status</text>
+      <text x="10" y="34" font-family="Arial, sans-serif" font-size="9" fill="#666">Least Concern</text>
+      <text x="10" y="46" font-family="Arial, sans-serif" font-size="9" fill="#666">Sustainable population</text>
+    </g>
+    
+    <g transform="translate(25, 155)">
+      <!-- Size & Limits -->
+      <rect x="0" y="0" width="250" height="50" rx="8" fill="#17A2B8" opacity="0.1" stroke="#17A2B8" stroke-width="1.5"/>
+      <text x="10" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#17A2B8">Size &amp; Limits</text>
+      <text x="10" y="34" font-family="Arial, sans-serif" font-size="9" fill="#666">Est. size: 12-14 inches</text>
+      <text x="10" y="46" font-family="Arial, sans-serif" font-size="9" fill="#666">Legal: Min 10 inches</text>
+    </g>
+    
+    <g transform="translate(25, 220)">
+      <!-- Recommendation -->
+      <rect x="0" y="0" width="250" height="50" rx="8" fill="#20C997" opacity="0.15" stroke="#20C997" stroke-width="2"/>
+      <text x="10" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#20C997">Recommendation</text>
+      <text x="10" y="34" font-family="Arial, sans-serif" font-size="9" fill="#222225" font-weight="bold">✓ Safe to keep</text>
+      <text x="10" y="46" font-family="Arial, sans-serif" font-size="9" fill="#666">Sustainable fishing choice</text>
+    </g>
+    
+    <!-- Bottom buttons -->
+    <g transform="translate(25, 285)">
+      <rect x="0" y="0" width="115" height="40" rx="6" fill="#17A2B8" opacity="0.1" stroke="#17A2B8" stroke-width="1.5"/>
+      <text x="57" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#17A2B8" text-anchor="middle">Back</text>
+      
+      <rect x="135" y="0" width="115" height="40" rx="6" fill="#20C997"/>
+      <text x="192" y="25" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Log Catch</text>
+    </g>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowTeal3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#17A2B8" />
+    </marker>
+  </defs>
+</svg>
