@@ -1,0 +1,375 @@
+/* Home Page Custom Styles */
+
+.home-hero {
+  text-align: center;
+  padding: 4rem 2rem 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 16px;
+  margin-bottom: 4rem;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.home-hero .tagline {
+  font-size: 1.4rem;
+  font-weight: 500;
+  opacity: 0.95;
+  margin-bottom: 1.5rem;
+}
+
+.home-hero .intro {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* Section Styles */
+.home-section {
+  margin: 4rem 0;
+}
+
+.home-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--heading-color, #2c3e50);
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.home-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  border-radius: 2px;
+}
+
+/* Education Cards */
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.education-card {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.education-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, #667eea, #764ba2);
+}
+
+.education-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.education-card h3 {
+  color: #667eea;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.education-card .degree {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color, #333);
+}
+
+.education-card .meta {
+  color: var(--text-muted, #6c757d);
+  font-size: 0.95rem;
+}
+
+/* Current Role Highlight */
+.current-role {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  border-left: 4px solid #667eea;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.current-role h3 {
+  color: #667eea;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.current-role .role-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-color, #333);
+}
+
+.current-role .location {
+  color: var(--text-muted, #6c757d);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Research Interests Grid */
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.interest-card {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.interest-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.15);
+  transform: scale(1.05);
+}
+
+.interest-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.interest-card h4 {
+  color: #667eea;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.interest-card p {
+  color: var(--text-muted, #6c757d);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Featured Projects */
+.featured-projects {
+  margin: 3rem 0;
+}
+
+.projects-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Publications Section */
+.publications-preview {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.publications-preview h3 {
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.publications-preview p {
+  line-height: 1.7;
+  color: var(--text-color, #555);
+  margin-bottom: 1.5rem;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 32px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cta-btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+}
+
+.cta-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+  color: white;
+  text-decoration: none;
+}
+
+.cta-btn-secondary {
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.cta-btn-secondary:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.cta-btn svg {
+  margin-left: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(135deg, #667eea10 0%, #764ba210 100%);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-item {
+  background: var(--card-bg, #fff);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item .icon {
+  font-size: 2rem;
+  color: #667eea;
+  margin-bottom: 0.75rem;
+}
+
+.contact-item h4 {
+  color: var(--heading-color, #2c3e50);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-item a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-hero {
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .home-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-hero .tagline {
+    font-size: 1.1rem;
+  }
+
+  .home-hero .intro {
+    font-size: 1rem;
+  }
+
+  .home-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .education-grid,
+  .interests-grid,
+  .projects-showcase {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cta-btn {
+    justify-content: center;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .education-card,
+  .interest-card,
+  .publications-preview,
+  .contact-item {
+    background: var(--card-bg, #1a1a1a);
+    border-color: var(--border-color, #333);
+  }
+
+  .home-hero {
+    background: linear-gradient(135deg, #4c5fd7 0%, #5a3a7c 100%);
+  }
+
+  .current-role {
+    background: linear-gradient(135deg, #4c5fd720 0%, #5a3a7c20 100%);
+  }
+
+  .contact-section {
+    background: linear-gradient(135deg, #4c5fd715 0%, #5a3a7c15 100%);
+  }
+}

@@ -7,7 +7,10 @@
   <div class="project-card-content">
     <span class="project-card-subtitle">{{ include.subtitle }}</span>
     <h3 class="project-card-title">{{ include.title }}</h3>
+    
+    {% if include.description %}
     <p class="project-card-description">{{ include.description }}</p>
+    {% endif %}
     
     {% if include.tags %}
     <div class="project-card-tags">

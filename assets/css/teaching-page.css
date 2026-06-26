@@ -1,0 +1,310 @@
+/* Teaching Page Styles */
+
+.teaching-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.teaching-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.teaching-hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+/* Timeline Styles */
+.teaching-timeline {
+  position: relative;
+  margin: 3rem 0;
+}
+
+.timeline-item {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-item h3 {
+  color: var(--heading-color, #2c3e50);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.timeline-item h4 {
+  color: #667eea;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.timeline-item .meta {
+  color: var(--text-muted, #6c757d);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* Course List */
+.course-list {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.course-list li {
+  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  font-weight: 500;
+}
+
+/* Evaluation Quotes Section */
+.evaluation-section {
+  margin: 4rem 0;
+}
+
+.evaluation-section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--heading-color, #2c3e50);
+}
+
+.evaluation-section .subtitle {
+  text-align: center;
+  color: var(--text-muted, #6c757d);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.quote-card {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 12px;
+  padding: 2rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.quote-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+  border-color: #667eea;
+}
+
+.quote-card::before {
+  content: '"';
+  font-size: 4rem;
+  color: #667eea;
+  opacity: 0.2;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.quote-card .quote-text {
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text-color, #333);
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.quote-card .quote-category {
+  font-size: 0.85rem;
+  color: #667eea;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Philosophy Section */
+.philosophy-section {
+  background: linear-gradient(135deg, #667eea10 0%, #764ba210 100%);
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  margin: 3rem 0;
+}
+
+.philosophy-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--heading-color, #2c3e50);
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.philosophy-card {
+  background: var(--card-bg, #fff);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.philosophy-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.philosophy-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.philosophy-card h3 {
+  color: #667eea;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.philosophy-card p {
+  color: var(--text-color, #555);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Teaching Interests */
+.interests-section {
+  margin: 3rem 0;
+}
+
+.interests-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.interest-item {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.interest-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+}
+
+.interest-item h4 {
+  color: #667eea;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.interest-item ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.interest-item li {
+  padding: 0.3rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.interest-item li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .teaching-hero {
+    padding: 2rem 1.5rem;
+  }
+
+  .teaching-hero h1 {
+    font-size: 2rem;
+  }
+
+  .teaching-hero p {
+    font-size: 1rem;
+  }
+
+  .quotes-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .philosophy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-list {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-item {
+    padding: 1.5rem;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .teaching-hero {
+    background: linear-gradient(135deg, #4c5fd7 0%, #5a3a7c 100%);
+  }
+
+  .timeline-item,
+  .quote-card,
+  .philosophy-card,
+  .interest-item {
+    background: var(--card-bg, #1a1a1a);
+    border-color: var(--border-color, #333);
+  }
+
+  .quote-card .quote-text {
+    color: var(--text-color, #e0e0e0);
+  }
+
+  .philosophy-card p {
+    color: var(--text-color, #ccc);
+  }
+}
