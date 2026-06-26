@@ -1,0 +1,87 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Quantum ML Hero -->
+  <defs>
+    <linearGradient id="quantumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0575E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#021B79;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#quantumGrad)"/>
+  
+  <!-- Quantum Circuit -->
+  <g transform="translate(150, 200)" opacity="0.4">
+    <line x1="0" y1="50" x2="400" y2="50" stroke="white" stroke-width="2"/>
+    <line x1="0" y1="100" x2="400" y2="100" stroke="white" stroke-width="2"/>
+    <line x1="0" y1="150" x2="400" y2="150" stroke="white" stroke-width="2"/>
+    
+    <!-- Quantum gates -->
+    <rect x="50" y="30" width="40" height="40" fill="none" stroke="white" stroke-width="2"/>
+    <text x="70" y="57" font-family="monospace" font-size="20" fill="white" text-anchor="middle">H</text>
+    
+    <circle cx="150" cy="100" r="15" fill="white" opacity="0.3"/>
+    <circle cx="150" cy="100" r="5" fill="white"/>
+    <line x1="150" y1="100" x2="150" y2="150" stroke="white" stroke-width="2"/>
+    <circle cx="150" cy="150" r="20" fill="none" stroke="white" stroke-width="2"/>
+    <line x1="150" y1="135" x2="150" y2="165" stroke="white" stroke-width="2"/>
+    <line x1="135" y1="150" x2="165" y2="150" stroke="white" stroke-width="2"/>
+    
+    <rect x="250" y="130" width="40" height="40" fill="none" stroke="white" stroke-width="2"/>
+    <text x="270" y="157" font-family="monospace" font-size="20" fill="white" text-anchor="middle">X</text>
+  </g>
+  
+  <!-- Neural Network -->
+  <g transform="translate(700, 300)">
+    <!-- Input layer -->
+    <circle cx="0" cy="0" r="12" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="0" cy="60" r="12" fill="rgba(255,255,255,0.8)"/>
+    <circle cx="0" cy="120" r="12" fill="rgba(255,255,255,0.8)"/>
+    
+    <!-- Hidden layer -->
+    <circle cx="100" cy="20" r="12" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="100" cy="70" r="12" fill="rgba(255,255,255,0.6)"/>
+    <circle cx="100" cy="120" r="12" fill="rgba(255,255,255,0.6)"/>
+    
+    <!-- Output layer -->
+    <circle cx="200" cy="60" r="12" fill="rgba(255,255,255,0.4)"/>
+    
+    <!-- Connections -->
+    <g opacity="0.3">
+      <line x1="0" y1="0" x2="100" y2="20" stroke="white" stroke-width="1"/>
+      <line x1="0" y1="0" x2="100" y2="70" stroke="white" stroke-width="1"/>
+      <line x1="0" y1="60" x2="100" y2="20" stroke="white" stroke-width="1"/>
+      <line x1="0" y1="60" x2="100" y2="70" stroke="white" stroke-width="1"/>
+      <line x1="0" y1="120" x2="100" y2="70" stroke="white" stroke-width="1"/>
+      <line x1="0" y1="120" x2="100" y2="120" stroke="white" stroke-width="1"/>
+      
+      <line x1="100" y1="20" x2="200" y2="60" stroke="white" stroke-width="1"/>
+      <line x1="100" y1="70" x2="200" y2="60" stroke="white" stroke-width="1"/>
+      <line x1="100" y1="120" x2="200" y2="60" stroke="white" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Quantum States/Particles -->
+  <circle cx="300" cy="500" r="4" fill="white" opacity="0.6"/>
+  <circle cx="450" cy="450" r="3" fill="white" opacity="0.5"/>
+  <circle cx="550" cy="550" r="5" fill="white" opacity="0.7"/>
+  <circle cx="750" cy="200" r="3" fill="white" opacity="0.5"/>
+  <circle cx="950" cy="350" r="4" fill="white" opacity="0.6"/>
+  
+  <!-- Glowing orbs -->
+  <circle cx="400" cy="400" r="30" fill="url(#glow)"/>
+  <circle cx="800" cy="500" r="25" fill="url(#glow)"/>
+  
+  <!-- Binary/Data Stream -->
+  <g transform="translate(150, 550)" opacity="0.2">
+    <text x="0" y="0" font-family="monospace" font-size="14" fill="white">01001011 10110010 11010101</text>
+    <text x="0" y="25" font-family="monospace" font-size="14" fill="white">11001010 01010011 10011100</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="730" font-family="Arial, sans-serif" font-size="46" font-weight="bold" fill="white" text-anchor="middle">Quantum-Classical Hybrid ML</text>
+</svg>

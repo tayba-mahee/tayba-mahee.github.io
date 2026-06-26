@@ -1,0 +1,80 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Teaching CS Hero -->
+  <defs>
+    <linearGradient id="teachGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#teachGrad)"/>
+  
+  <!-- Chalkboard/Screen -->
+  <g transform="translate(200, 150)">
+    <rect x="0" y="0" width="800" height="450" rx="12" fill="rgba(0,0,0,0.3)"/>
+    <rect x="10" y="10" width="780" height="430" rx="8" fill="rgba(255,255,255,0.95)"/>
+    
+    <!-- Code on board -->
+    <text x="40" y="60" font-family="monospace" font-size="24" fill="#333" font-weight="bold">def learn():</text>
+    <text x="80" y="100" font-family="monospace" font-size="20" fill="#666">students = []</text>
+    <text x="80" y="130" font-family="monospace" font-size="20" fill="#666">for student in class:</text>
+    <text x="120" y="160" font-family="monospace" font-size="20" fill="#666">students.append(</text>
+    <text x="160" y="190" font-family="monospace" font-size="20" fill="#f5576c">explore(concepts)</text>
+    <text x="120" y="220" font-family="monospace" font-size="20" fill="#666">)</text>
+    <text x="80" y="250" font-family="monospace" font-size="20" fill="#666">return knowledge</text>
+    
+    <!-- Diagram -->
+    <g transform="translate(500, 80)">
+      <circle cx="0" cy="0" r="50" fill="none" stroke="#f5576c" stroke-width="3"/>
+      <text x="0" y="8" font-family="Arial, sans-serif" font-size="16" fill="#f5576c" text-anchor="middle">Learn</text>
+      
+      <line x1="50" y1="0" x2="100" y2="-60" stroke="#f5576c" stroke-width="2" marker-end="url(#arrowTeach)"/>
+      <circle cx="150" cy="-60" r="40" fill="none" stroke="#f5576c" stroke-width="2"/>
+      <text x="150" y="-52" font-family="Arial, sans-serif" font-size="14" fill="#f5576c" text-anchor="middle">Practice</text>
+      
+      <line x1="50" y1="0" x2="100" y2="60" stroke="#f5576c" stroke-width="2" marker-end="url(#arrowTeach)"/>
+      <circle cx="150" cy="60" r="40" fill="none" stroke="#f5576c" stroke-width="2"/>
+      <text x="150" y="68" font-family="Arial, sans-serif" font-size="14" fill="#f5576c" text-anchor="middle">Apply</text>
+    </g>
+    
+    <!-- Student-centered note -->
+    <rect x="40" y="320" width="280" height="80" rx="8" fill="rgba(245,87,108,0.1)"/>
+    <text x="60" y="350" font-family="Arial, sans-serif" font-size="16" fill="#333" font-weight="bold">Student-Centered Approach</text>
+    <text x="60" y="375" font-family="Arial, sans-serif" font-size="13" fill="#666">✓ Active Learning</text>
+    <text x="60" y="395" font-family="Arial, sans-serif" font-size="13" fill="#666">✓ Collaborative Projects</text>
+  </g>
+  
+  <marker id="arrowTeach" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <polygon points="0 0, 10 3, 0 6" fill="#f5576c"/>
+  </marker>
+  
+  <!-- Student Icons -->
+  <g transform="translate(100, 650)">
+    <circle cx="0" cy="0" r="30" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="0" cy="-5" r="10" fill="white" opacity="0.8"/>
+    <ellipse cx="0" cy="10" rx="15" ry="10" fill="white" opacity="0.8"/>
+  </g>
+  
+  <g transform="translate(200, 650)">
+    <circle cx="0" cy="0" r="30" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="0" cy="-5" r="10" fill="white" opacity="0.8"/>
+    <ellipse cx="0" cy="10" rx="15" ry="10" fill="white" opacity="0.8"/>
+  </g>
+  
+  <g transform="translate(1050, 650)">
+    <circle cx="0" cy="0" r="30" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="0" cy="-5" r="10" fill="white" opacity="0.8"/>
+    <ellipse cx="0" cy="10" rx="15" ry="10" fill="white" opacity="0.8"/>
+  </g>
+  
+  <!-- Lightbulb (Ideas) -->
+  <g transform="translate(1050, 200)" opacity="0.4">
+    <circle cx="0" cy="0" r="40" fill="rgba(255,255,255,0.3)"/>
+    <path d="M -15,-10 Q -15,-40 0,-50 Q 15,-40 15,-10 Q 20,0 15,15 L -15,15 Q -20,0 -15,-10" fill="white"/>
+    <rect x="-10" y="15" width="20" height="8" fill="white"/>
+    <rect x="-8" y="23" width="16" height="5" rx="2" fill="white"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="760" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="white" text-anchor="middle">Teaching Computer Science</text>
+</svg>

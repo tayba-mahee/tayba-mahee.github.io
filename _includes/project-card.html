@@ -1,0 +1,31 @@
+<!-- Project Card Component -->
+<a href="{{ include.link }}" class="project-card">
+  <img src="{{ include.image }}" alt="{{ include.title }}" class="project-card-image" loading="lazy">
+  
+  <div class="project-card-overlay"></div>
+  
+  <div class="project-card-content">
+    <span class="project-card-subtitle">{{ include.subtitle }}</span>
+    <h3 class="project-card-title">{{ include.title }}</h3>
+    <p class="project-card-description">{{ include.description }}</p>
+    
+    {% if include.tags %}
+    <div class="project-card-tags">
+      {% for tag in include.tags %}
+      <span class="project-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+    
+    <span class="project-card-button">
+      {% if include.button_text %}
+        {{ include.button_text }}
+      {% else %}
+        Read Case Study
+      {% endif %}
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </span>
+  </div>
+</a>

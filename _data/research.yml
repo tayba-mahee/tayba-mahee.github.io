@@ -1,0 +1,31 @@
+- title: "Behavioral Feature Prediction"
+  subtitle: "Computational Biology & Machine Learning"
+  description: "Developed supervised learning models to predict behavioral features using bone marker data from primate subjects, applying advanced feature engineering techniques."
+  image: "/assets/img/research/behavioral-prediction-hero.svg"
+  tags: ["Machine Learning", "Biology", "Python", "Data Science"]
+  link: "#behavioral-prediction"
+  button_text: "View Details"
+
+- title: "Dust Aerosol Detection"
+  subtitle: "Remote Sensing & Environmental Science"
+  description: "Ensemble deep learning models for aerosol detection using NASA MODIS satellite data, developing multi-resolution analysis tools for environmental monitoring."
+  image: "/assets/img/research/aerosol-detection-hero.svg"
+  tags: ["Deep Learning", "Computer Vision", "Remote Sensing", "NASA"]
+  link: "https://ieeexplore.ieee.org/abstract/document/9799082"
+  button_text: "View Publication"
+
+- title: "Gesture Recognition Research"
+  subtitle: "Human-Computer Interaction & Computer Vision"
+  description: "Research and ideation development focused on gesture recognition systems utilizing sign language datasets for accessible human-computer interaction."
+  image: "/assets/img/research/gesture-recognition-hero.svg"
+  tags: ["Computer Vision", "HCI", "Sign Language", "Accessibility"]
+  link: "#gesture-recognition"
+  button_text: "View Details"
+
+- title: "ML Fairness & Robustness Study"
+  subtitle: "AI Ethics & Machine Learning Theory"
+  description: "NSF proposal research studying the relationship between machine learning model robustness, fairness, and performance across demographic groups."
+  image: "/assets/img/research/ml-fairness-hero.svg"
+  tags: ["AI Ethics", "Fairness", "Robustness", "NSF Research"]
+  link: "#ml-fairness"
+  button_text: "View Details"

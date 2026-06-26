@@ -1,0 +1,47 @@
+- title: "BookLens: AR Book Discovery"
+  subtitle: "UX Research & Product Design"
+  description: "Augmented reality application enhancing physical bookstore browsing with contextual book information, ratings, and recommendations through smartphone AR."
+  image: "/assets/img/booklens/booklens-hero.svg"
+  tags: ["Augmented Reality", "UX Research", "Mobile Design", "HCI"]
+  link: "/posts/booklens-ar-book-discovery/"
+  button_text: "Read Case Study"
+
+- title: "AR Fishing: Sustainable Decision Support"
+  subtitle: "Environmental Technology & Interaction Design"
+  description: "Real-time AR system providing fish species identification and sustainability guidance to support responsible fishing practices and marine conservation."
+  image: "/assets/img/arfishing/ar-fishing-hero.svg"
+  tags: ["Augmented Reality", "Computer Vision", "Sustainability", "ML"]
+  link: "/posts/ar-fishing-sustainable-decision-support/"
+  button_text: "Read Case Study"
+
+- title: "Cross-Cultural Information Seeking"
+  subtitle: "Master's Thesis Research"
+  description: "Comprehensive research examining how cultural differences impact information-seeking behavior and website navigation using Fitts' Law and statistical analysis."
+  image: "/assets/img/projects/cultural-ux-hero.svg"
+  tags: ["HCI", "User Research", "Cultural Computing", "Statistics"]
+  link: "/posts/cultural-factors-ux/"
+  button_text: "View Research"
+
+- title: "Baylor Navigation System"
+  subtitle: "Full-Stack Web Application"
+  description: "Interactive campus navigation platform with map-based interface, internal building navigation, and resource management using modern web technologies."
+  image: "/assets/img/projects/baylor-nav-hero.svg"
+  tags: ["React.js", "Spring Boot", "PostgreSQL", "LeafletJS"]
+  link: "https://github.com/yudeep-rajbhandari/goBearsBackEnd"
+  button_text: "View on GitHub"
+
+- title: "Quantum-Classical Hybrid Models"
+  subtitle: "Machine Learning Research"
+  description: "Exploring quantum computing applications in machine learning with hybrid classical-quantum models for practical problem-solving."
+  image: "/assets/img/projects/quantum-ml-hero.svg"
+  tags: ["Quantum Computing", "Machine Learning", "Deep Learning", "Research"]
+  link: "/posts/quantum-machine-learning/"
+  button_text: "Read More"
+
+- title: "Teaching Computer Science"
+  subtitle: "Educational Technology & Pedagogy"
+  description: "Student-centered teaching methodologies and innovative approaches to computer science education for diverse learners."
+  image: "/assets/img/projects/teaching-cs-hero.svg"
+  tags: ["Education", "Pedagogy", "CS Education", "Student-Centered"]
+  link: "/posts/teaching-computer-science/"
+  button_text: "Read More"
