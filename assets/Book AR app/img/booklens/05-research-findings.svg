@@ -1,0 +1,75 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="white"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#222225" text-anchor="middle">User Research Insights</text>
+  
+  <!-- Finding 1 -->
+  <g transform="translate(80, 100)">
+    <rect x="0" y="0" width="480" height="180" rx="12" fill="#348CD5" opacity="0.1" stroke="#348CD5" stroke-width="2"/>
+    
+    <!-- Icon -->
+    <circle cx="80" cy="70" r="35" fill="#348CD5" opacity="0.2"/>
+    <text x="80" y="80" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">📱</text>
+    
+    <!-- Content -->
+    <text x="140" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#348CD5">85%</text>
+    <text x="140" y="90" font-family="Arial, sans-serif" font-size="14" fill="#222225">of readers search Goodreads</text>
+    <text x="140" y="110" font-family="Arial, sans-serif" font-size="14" fill="#222225">before purchasing</text>
+    <text x="140" y="130" font-family="Arial, sans-serif" font-size="14" fill="#222225">unfamiliar books</text>
+  </g>
+  
+  <!-- Finding 2 -->
+  <g transform="translate(640, 100)">
+    <rect x="0" y="0" width="480" height="180" rx="12" fill="#A678F0" opacity="0.1" stroke="#A678F0" stroke-width="2"/>
+    
+    <!-- Icon -->
+    <circle cx="80" cy="70" r="35" fill="#A678F0" opacity="0.2"/>
+    <text x="80" y="80" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">⏱️</text>
+    
+    <!-- Content -->
+    <text x="140" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#A678F0">7-12</text>
+    <text x="140" y="90" font-family="Arial, sans-serif" font-size="14" fill="#222225">minutes average time</text>
+    <text x="140" y="110" font-family="Arial, sans-serif" font-size="14" fill="#222225">comparing multiple books</text>
+    <text x="140" y="130" font-family="Arial, sans-serif" font-size="14" fill="#222225">across different apps</text>
+  </g>
+  
+  <!-- Finding 3 -->
+  <g transform="translate(80, 320)">
+    <rect x="0" y="0" width="480" height="180" rx="12" fill="#E74C3C" opacity="0.1" stroke="#E74C3C" stroke-width="2"/>
+    
+    <!-- Icon -->
+    <circle cx="80" cy="70" r="35" fill="#E74C3C" opacity="0.2"/>
+    <text x="80" y="80" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">😤</text>
+    
+    <!-- Content -->
+    <text x="140" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#222225">Top Frustration:</text>
+    <text x="140" y="90" font-family="Arial, sans-serif" font-size="14" fill="#222225">Readers enjoy bookstore</text>
+    <text x="140" y="110" font-family="Arial, sans-serif" font-size="14" fill="#222225">browsing but dislike constant</text>
+    <text x="140" y="130" font-family="Arial, sans-serif" font-size="14" fill="#222225">device context-switching</text>
+  </g>
+  
+  <!-- Finding 4 -->
+  <g transform="translate(640, 320)">
+    <rect x="0" y="0" width="480" height="180" rx="12" fill="#27AE60" opacity="0.1" stroke="#27AE60" stroke-width="2"/>
+    
+    <!-- Icon -->
+    <circle cx="80" cy="70" r="35" fill="#27AE60" opacity="0.2"/>
+    <text x="80" y="80" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">⭐</text>
+    
+    <!-- Content -->
+    <text x="140" y="60" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#222225">#1 Purchase Factor:</text>
+    <text x="140" y="90" font-family="Arial, sans-serif" font-size="14" fill="#222225">Trustworthy</text>
+    <text x="140" y="110" font-family="Arial, sans-serif" font-size="14" fill="#222225">recommendations</text>
+    <text x="140" y="130" font-family="Arial, sans-serif" font-size="14" fill="#222225">significantly influence decisions</text>
+  </g>
+  
+  <!-- Research Methods Footer -->
+  <g transform="translate(300, 540)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="13" fill="#666" font-weight="bold">Research Methods:</text>
+    <text x="150" y="0" font-family="Arial, sans-serif" font-size="12" fill="#666">📚 Secondary Research</text>
+    <text x="310" y="0" font-family="Arial, sans-serif" font-size="12" fill="#666">🔍 Competitive Analysis</text>
+    <text x="480" y="0" font-family="Arial, sans-serif" font-size="12" fill="#666">💬 User Interviews</text>
+  </g>
+</svg>

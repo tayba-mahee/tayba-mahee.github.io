@@ -1,0 +1,77 @@
+<svg width="1200" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="700" fill="white"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#222225" text-anchor="middle">Information Architecture</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#348CD5"/>
+    </marker>
+  </defs>
+  
+  <!-- Level 1: Home Screen -->
+  <g transform="translate(450, 80)">
+    <rect x="0" y="0" width="300" height="80" rx="12" fill="#348CD5" opacity="0.9"/>
+    <text x="150" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">HOME SCREEN</text>
+    <text x="150" y="58" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">📱 Launch App</text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <line x1="600" y1="160" x2="600" y2="200" stroke="#348CD5" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Level 2: Scanner -->
+  <g transform="translate(450, 200)">
+    <rect x="0" y="0" width="300" height="80" rx="12" fill="#5CA3DC" opacity="0.9"/>
+    <text x="150" y="35" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">SCANNER</text>
+    <text x="150" y="58" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">📷 Camera View</text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <line x1="600" y1="280" x2="600" y2="320" stroke="#348CD5" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Level 3: Book Details -->
+  <g transform="translate(400, 320)">
+    <rect x="0" y="0" width="400" height="140" rx="12" fill="#7B89E1" opacity="0.9"/>
+    <text x="200" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">BOOK DETAILS PAGE</text>
+    <text x="200" y="60" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">📖 Title • Author • Genre</text>
+    <text x="200" y="80" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">⭐ Goodreads Rating</text>
+    <text x="200" y="100" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">📝 Summary • Publication Info</text>
+  </g>
+  
+  <!-- Arrows to three branches -->
+  <line x1="450" y1="460" x2="250" y2="520" stroke="#348CD5" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="600" y1="460" x2="600" y2="520" stroke="#348CD5" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="750" y1="460" x2="950" y2="520" stroke="#348CD5" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Level 4a: Reviews -->
+  <g transform="translate(50, 520)">
+    <rect x="0" y="0" width="300" height="100" rx="12" fill="#9B7FE5" opacity="0.9"/>
+    <text x="150" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">REVIEWS</text>
+    <text x="150" y="55" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">💬 User Ratings</text>
+    <text x="150" y="75" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">📄 Reader Comments</text>
+  </g>
+  
+  <!-- Level 4b: Recommendations -->
+  <g transform="translate(450, 520)">
+    <rect x="0" y="0" width="300" height="100" rx="12" fill="#9B7FE5" opacity="0.9"/>
+    <text x="150" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">RECOMMENDATIONS</text>
+    <text x="150" y="55" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">📚 Similar Books</text>
+    <text x="150" y="75" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">🔍 Related Titles</text>
+  </g>
+  
+  <!-- Level 4c: Purchase Options -->
+  <g transform="translate(850, 520)">
+    <rect x="0" y="0" width="300" height="100" rx="12" fill="#9B7FE5" opacity="0.9"/>
+    <text x="150" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">PURCHASE OPTIONS</text>
+    <text x="150" y="55" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">💰 Price Comparison</text>
+    <text x="150" y="75" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">🔖 Save for Later</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 650)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" fill="#666" font-style="italic">Navigation Flow: Home → Scanner → Details → (Reviews | Recommendations | Purchase)</text>
+  </g>
+</svg>

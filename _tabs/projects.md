@@ -37,18 +37,43 @@ A comprehensive navigation and resource management system for Baylor University 
 
 ---
 
-### AR Fishing
-**Augmented Reality Application**
+### BookLens: AR Book Discovery
+**UX Research & Product Design**
 
-An innovative augmented reality fishing tool that fuses the traditional fishing experience with modern AR technology to promote sustainable fishing practices.
+An augmented reality application that enhances the physical bookstore experience by providing contextual book information through smartphone AR, helping readers make informed purchasing decisions without interrupting their browsing flow.
 
-**Key Features:**
-- Real-time fish classification with annotated information
-- Location-based data integration
-- Machine learning integration for species identification
-- Focus on reducing overfishing and environmental conservation
+**Technologies:** Augmented Reality, Mobile UX, Computer Vision
 
-**Research Focus:** Embedding machine learning with user experience in AR applications
+**Key Contributions:**
+- Led product discovery and UX research phases
+- Conducted competitive analysis and user interviews
+- Created personas, empathy maps, and task flows
+- Designed information architecture following Design Thinking methodology
+- Facilitated usability evaluation and iterative improvements
+
+**Impact:** Reduces context-switching by integrating Goodreads ratings, reviews, summaries, and recommendations directly into the bookstore browsing experience.
+
+[Read Full Case Study →](/posts/booklens-ar-book-discovery/){: .btn .btn-outline}
+
+---
+
+### AR Fishing: Sustainable Decision Support System
+**UX Research & Interaction Design**
+
+An augmented reality system that provides real-time decision support for sustainable fishing practices, combining computer vision, machine learning, and user-centered interface design to help fishermen make environmentally responsible decisions without interrupting the natural fishing experience.
+
+**Technologies:** Augmented Reality, Computer Vision, Machine Learning, HCI
+
+**Key Contributions:**
+- Conducted research on overfishing and sustainable fishing technologies
+- Designed end-to-end AR user experience and interaction patterns
+- Created user flows and high-fidelity interface mockups for hands-free interaction
+- Applied Design Thinking methodology to balance environmental goals with usability
+- Conducted usability testing and iterative refinements
+
+**Impact:** Empowers fishermen with real-time species identification, conservation status, and sustainability guidance at the moment of catch—supporting marine conservation while preserving traditional fishing practices.
+
+[Read Full Case Study →](/posts/ar-fishing-sustainable-decision-support/){: .btn .btn-outline}
 
 ---
 
