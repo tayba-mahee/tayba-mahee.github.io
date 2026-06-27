@@ -389,29 +389,3 @@ Given additional time, I would continue the project by:
 
 ---
 
-# Project Impact
-
-SheLeads demonstrates how user-centered design can simplify fragmented career journeys by bringing mentorship, learning, networking, and professional opportunities together in one cohesive experience.
-
-Although developed as a concept project, it allowed me to practice the complete UX design workflow while designing a product with meaningful social impact.
-
----
-
-# Key Skills Demonstrated
-
-- UX Research
-- User-Centered Design
-- Competitive Analysis
-- Personas
-- Empathy Mapping
-- User Journey Mapping
-- Information Architecture
-- Wireframing
-- Prototyping
-- Mobile UI Design
-- Visual Design
-- Design Systems
-- Responsive Design
-- Figma
-- Interaction Design
-```
