@@ -19,17 +19,16 @@ This project was developed as part of a UX design competition and marked my firs
 
 ## Project Details
 
-**Role:** UX Researcher · Product Designer · UI Designer
-
-**Duration:** UX Design Competition
-
-**Tools:** Figma · Miro · Adobe Illustrator
-
-**Methods:** User Research · Competitive Analysis · Personas · Empathy Mapping · User Journey Mapping · Information Architecture · Wireframing · Prototyping · Responsive Design
+| | |
+|---|---|
+| **Role** | UX Researcher · Product Designer · UI Designer |
+| **Duration** | UX Design Competition |
+| **Tools** | Figma · Miro · Adobe Illustrator |
+| **Methods** | User Research · Competitive Analysis · Personas · Empathy Mapping · User Journey Mapping · Information Architecture · Wireframing · Prototyping · Responsive Design |
 
 ---
 
-# The Challenge
+## The Challenge
 
 Women in STEM frequently switch between different platforms to:
 
@@ -46,19 +45,22 @@ Although each platform solves one specific problem, none provides a unified expe
 
 ---
 
-# My Role
+## My Role
 
-As the sole UX designer, I led the complete design process, including:
+As the sole UX designer, I was responsible for the end-to-end product design process—from understanding user needs to designing the final interactive prototype.
 
-- Conducting user research
-- Performing competitive analysis
-- Defining user needs
-- Creating personas and empathy maps
-- Designing user journeys
-- Building information architecture
-- Creating wireframes and prototypes
-- Designing responsive mobile interfaces
-- Developing a reusable visual design system
+### Responsibilities
+
+- User Research
+- Competitive Analysis
+- Personas
+- Empathy Mapping
+- User Journey Mapping
+- Information Architecture
+- Wireframing
+- High-Fidelity UI Design
+- Interactive Prototyping
+- Design System
 
 ---
 
@@ -68,20 +70,20 @@ This project followed an iterative, user-centered design process, beginning with
 
 ### Discovery
 
-I explored the problem space by researching the experiences of women in STEM, reviewing existing career development platforms, and identifying gaps in mentorship, networking, and professional learning.
+I explored the experiences of women in STEM through background research and competitive analysis to identify gaps in mentorship, networking, and career development resources.
 
 **Activities**
 
-- Background research
-- Competitive analysis
-- User needs identification
-- Problem framing
+- Literature Review
+- Competitive Analysis
+- User Needs Identification
+- Problem Framing
 
 ---
 
 ### Research Synthesis
 
-Research findings were organized into personas and empathy maps to better understand users' motivations, goals, and pain points. These insights guided feature prioritization and product strategy.
+Research findings were translated into personas, empathy maps, and design goals that guided feature prioritization throughout the project.
 
 **Deliverables**
 
@@ -94,7 +96,7 @@ Research findings were organized into personas and empathy maps to better unders
 
 ### Experience Design
 
-I mapped the end-to-end experience by creating user journeys, defining the information architecture, and designing user flows for key tasks such as discovering jobs, finding mentors, booking experts, and accessing learning resources.
+I designed the end-to-end experience by creating user journeys, information architecture, and task flows for the application's primary features.
 
 **Deliverables**
 
@@ -138,9 +140,9 @@ The final designs were assembled into an interactive prototype to evaluate navig
 
 ---
 
-# Research
+## Research
 
-## Research Objectives
+### Research Objectives
 
 The primary objective was to understand how women currently navigate professional growth within STEM industries and identify opportunities to improve that experience through a unified digital product.
 
@@ -154,13 +156,13 @@ The research focused on:
 
 ---
 
-## User Research
+### User Research
 
-Before designing the interface, I conducted exploratory user research to better understand the challenges women face when searching for jobs, mentorship opportunities, and career development resources within STEM fields.
+### User Research
 
-A survey consisting of **12 questions** was distributed to participants between the ages of **23 and 35**, collecting **15 responses**. The survey explored current job-search behaviors, professional learning habits, mentorship needs, and perceptions of existing career development platforms.
+Before designing the interface, I conducted exploratory user research to better understand the challenges women face while searching for jobs, mentorship, and professional development opportunities.
 
-![User Research](/assets/img/sheleads/user-research.png)
+A 12-question survey was distributed to participants between the ages of **23 and 35**, collecting **15 responses** about job-search behaviors, mentorship needs, and perceptions of existing career development platforms.
 
 ### Research Goals
 
@@ -179,6 +181,12 @@ A survey consisting of **12 questions** was distributed to participants between 
 - Where do you find information about workplace culture and gender equality?
 - Would you use a dedicated career development platform?
 
+
+![User Research](/assets/img/sheleads/user-research.png)
+
+These findings directly influenced the application's core features, particularly mentorship, centralized learning resources, and community support.
+
+
 ### Key Insights
 
 The survey revealed several recurring themes:
@@ -192,11 +200,11 @@ The survey revealed several recurring themes:
 The findings established the foundation for the remainder of the design process and guided feature prioritization throughout the project.
 
 
-## Competitive Analysis
+### Competitive Analysis
 
 To understand the existing landscape, I reviewed several websites and applications focused on women in technology, professional networking, and career development. The goal was to identify common design patterns, understand existing offerings, and uncover opportunities for improvement.
 
-Rather than replicating existing solutions, I wanted to understand what users were still missing.
+Rather than replicating existing platforms, the objective was to identify unmet user needs and opportunities for a more unified experience.
 
 ### Key Findings
 
@@ -224,27 +232,33 @@ The application was designed to:
 
 ---
 
-# Personas
+## Personas
 
-Based on the research findings, personas were developed to represent the needs, motivations, frustrations, and career goals of potential users.
 
-The personas helped guide design decisions throughout the project.
+To keep design decisions grounded in real user needs, I created two personas representing different stages of a STEM career.
+
 
 ![Personas](/assets/img/sheleads/personas.png)
 
+
+These personas helped evaluate design decisions against users' goals, motivations, and frustrations throughout the project.
+
+
 ---
 
-# Empathy Map
+## Empathy Map
 
 An empathy map was created to better understand users' thoughts, emotions, behaviors, and challenges while navigating their professional careers.
 
-This exercise helped identify opportunities where technology could better support users.
 
 ![Empathy Map](/assets/img/sheleads/empathy-map.png)
 
+This exercise helped identify opportunities where technology could better support users.
+
+
 ---
 
-# User Journey
+## User Journey
 
 The user journey explored the complete experience from discovering the application to finding jobs, connecting with mentors, learning new skills, and engaging with the professional community.
 
@@ -254,7 +268,7 @@ Pain points identified during the journey directly influenced the information ar
 
 ---
 
-# Information Architecture
+## Information Architecture
 
 The application was organized around five primary content areas:
 
@@ -266,7 +280,7 @@ The application was organized around five primary content areas:
 
 ---
 
-# Product Concept
+## Product Concept
 
 Rather than creating another job board, SheLeads was designed as a career growth ecosystem.
 
@@ -285,7 +299,7 @@ Core experiences include:
 
 ---
 
-# Wireframes
+## Wireframes
 
 Low-fidelity wireframes were created to validate navigation, information hierarchy, and overall task flow before investing in visual design.
 
@@ -295,7 +309,7 @@ This stage focused on usability rather than aesthetics.
 
 ---
 
-# Visual Design
+## Visual Design System
 
 To create a welcoming and approachable experience, I developed a visual design system focused on clarity, consistency, and accessibility.
 
@@ -363,7 +377,7 @@ Overall, prototyping transformed the research findings into a cohesive mobile ex
 
 ---
 
-# Reflection
+## Key Learnings
 
 This project fundamentally changed the way I approach product design.
 
@@ -374,8 +388,14 @@ Working through personas, empathy maps, user journeys, and iterative prototyping
 The project also strengthened my understanding of creating scalable design systems, maintaining visual consistency, and designing experiences that support users beyond a single interaction.
 
 ---
+## Final Outcome
 
-# Future Directions
+SheLeads demonstrates an end-to-end UX design process that combines user research, interaction design, visual design, and prototyping into a cohesive mobile experience for women pursuing careers in STEM.
+
+The project strengthened my ability to translate research into product decisions while designing scalable interfaces centered around real user needs.
+
+
+## Future Directions
 
 Given additional time, I would continue the project by:
 
