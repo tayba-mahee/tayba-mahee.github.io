@@ -16,6 +16,14 @@ Overfishing is one of the leading contributors to marine ecosystem decline world
 
 Rather than replacing traditional fishing practices, the system augments the fishing experience by embedding intelligent decision support directly into the user's workflow.
 
+## Why This Matters
+
+Healthy marine ecosystems depend on informed fishing practices.
+
+While governments and conservation organizations provide regulations and monitoring systems, individual fishermen rarely receive actionable guidance at the moment decisions are made.
+
+This project explores how human-centered design can bridge that gap through contextual augmented reality experiences.
+
 ## Project Details
 
 **Role:** UX Researcher · Product Designer · Interaction Designer  
@@ -74,6 +82,16 @@ To understand the problem space, I conducted literature reviews and market resea
 - Human-computer interaction principles for AR systems
 
 This research revealed that while commercial monitoring systems exist, there is a significant gap in providing **accessible, real-time decision support** for individual fishermen.
+
+### Research Questions
+
+How do fishermen currently identify species?
+
+What information influences keep-or-release decisions?
+
+What are the biggest pain points during fishing?
+
+How can AR reduce decision-making effort?
 
 ### Problem Space Analysis
 
