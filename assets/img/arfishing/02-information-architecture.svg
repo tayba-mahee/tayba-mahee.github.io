@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1200" height="600">
+  
+  <ns0:defs>
+    <ns0:linearGradient id="oceanBg3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <ns0:stop offset="0%" style="stop-color:#17A2B8;stop-opacity:0.05" />
+      <ns0:stop offset="100%" style="stop-color:#4FC3DC;stop-opacity:0.05" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+  <ns0:rect width="1200" height="600" fill="url(#oceanBg3)" />
+  
+  
+  <ns0:text x="600" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#222225" text-anchor="middle">Information Architecture</ns0:text>
+  
+  
+  <ns0:g transform="translate(450, 80)">
+    <ns0:rect x="0" y="0" width="300" height="80" rx="10" fill="white" stroke="#17A2B8" stroke-width="2" />
+    <ns0:rect x="0" y="0" width="300" height="28" rx="10" fill="#17A2B8" opacity="0.15" />
+    <ns0:text x="150" y="20" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#17A2B8" text-anchor="middle">Hardware Layer</ns0:text>
+    
+    <ns0:text x="150" y="48" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225" text-anchor="middle">📷 Underwater Camera</ns0:text>
+    <ns0:text x="150" y="68" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Mounted near fishing line</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:path d="M 600 170 L 600 210" stroke="#17A2B8" stroke-width="3" fill="none" marker-end="url(#arrowTeal2)" />
+  
+  
+  <ns0:g transform="translate(450, 210)">
+    <ns0:rect x="0" y="0" width="300" height="100" rx="10" fill="white" stroke="#0B7A8F" stroke-width="2" />
+    <ns0:rect x="0" y="0" width="300" height="28" rx="10" fill="#0B7A8F" opacity="0.15" />
+    <ns0:text x="150" y="20" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#0B7A8F" text-anchor="middle">Processing Layer</ns0:text>
+    
+    <ns0:text x="150" y="48" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225" text-anchor="middle">🧠 Computer Vision</ns0:text>
+    <ns0:text x="150" y="68" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Machine learning classification</ns0:text>
+    <ns0:text x="150" y="84" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Species recognition algorithm</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:path d="M 600 320 L 600 360" stroke="#0B7A8F" stroke-width="3" fill="none" marker-end="url(#arrowTeal2)" />
+  
+  
+  <ns0:g transform="translate(450, 360)">
+    <ns0:rect x="0" y="0" width="300" height="100" rx="10" fill="white" stroke="#17A2B8" stroke-width="2" />
+    <ns0:rect x="0" y="0" width="300" height="28" rx="10" fill="#17A2B8" opacity="0.15" />
+    <ns0:text x="150" y="20" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#17A2B8" text-anchor="middle">Display Layer</ns0:text>
+    
+    <ns0:text x="150" y="48" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#222225" text-anchor="middle">📱 AR Interface</ns0:text>
+    <ns0:text x="150" y="68" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Embedded display on fishing rod</ns0:text>
+    <ns0:text x="150" y="84" font-family="Arial, sans-serif" font-size="11" fill="#666" text-anchor="middle">Real-time AR overlays</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:path d="M 600 470 L 600 510" stroke="#17A2B8" stroke-width="3" fill="none" marker-end="url(#arrowTeal2)" />
+  
+  
+  <ns0:text x="600" y="500" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#222225" text-anchor="middle">Information Display</ns0:text>
+  
+  
+  <ns0:g transform="translate(60, 520)">
+    <ns0:rect x="0" y="0" width="220" height="60" rx="8" fill="#17A2B8" opacity="0.08" stroke="#17A2B8" stroke-width="1.5" />
+    <ns0:text x="110" y="24" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#17A2B8" text-anchor="middle">Species Identification</ns0:text>
+    <ns0:text x="110" y="42" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">Name &amp; classification</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:g transform="translate(310, 520)">
+    <ns0:rect x="0" y="0" width="220" height="60" rx="8" fill="#0B7A8F" opacity="0.08" stroke="#0B7A8F" stroke-width="1.5" />
+    <ns0:text x="110" y="24" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#0B7A8F" text-anchor="middle">Conservation Status</ns0:text>
+    <ns0:text x="110" y="42" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">Endangered/threatened data</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:g transform="translate(560, 520)">
+    <ns0:rect x="0" y="0" width="220" height="60" rx="8" fill="#4FC3DC" opacity="0.08" stroke="#4FC3DC" stroke-width="1.5" />
+    <ns0:text x="110" y="24" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4FC3DC" text-anchor="middle">Catch Recommendations</ns0:text>
+    <ns0:text x="110" y="42" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">Keep/release guidance</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:g transform="translate(810, 520)">
+    <ns0:rect x="0" y="0" width="220" height="60" rx="8" fill="#20C997" opacity="0.08" stroke="#20C997" stroke-width="1.5" />
+    <ns0:text x="110" y="24" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#20C997" text-anchor="middle">Sustainability Guidance</ns0:text>
+    <ns0:text x="110" y="42" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">Environmental impact info</ns0:text>
+  </ns0:g>
+  
+  
+  <ns0:path d="M 600 510 L 170 520" stroke="#17A2B8" stroke-width="2" fill="none" opacity="0.4" />
+  <ns0:path d="M 600 510 L 420 520" stroke="#0B7A8F" stroke-width="2" fill="none" opacity="0.4" />
+  <ns0:path d="M 600 510 L 670 520" stroke="#4FC3DC" stroke-width="2" fill="none" opacity="0.4" />
+  <ns0:path d="M 600 510 L 920 520" stroke="#20C997" stroke-width="2" fill="none" opacity="0.4" />
+  
+  
+  <ns0:defs>
+    <ns0:marker id="arrowTeal2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <ns0:path d="M0,0 L0,6 L9,3 z" fill="#17A2B8" />
+    </ns0:marker>
+  </ns0:defs>
+</ns0:svg>
