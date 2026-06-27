@@ -1,17 +1,3 @@
-- title: "BookLens: AR Book Discovery"
-  subtitle: "UX Research & Product Design"
-  image: "/assets/img/booklens/booklens-hero.svg"
-  tags: ["Augmented Reality", "UX Research", "Mobile Design", "HCI"]
-  link: "/posts/booklens-ar-book-discovery/"
-  button_text: "Read Case Study"
-
-- title: "AR Fishing: Sustainable Decision Support"
-  subtitle: "Environmental Technology & Interaction Design"
-  image: "/assets/img/arfishing/ar-fishing-hero.svg"
-  tags: ["Augmented Reality", "Computer Vision", "Sustainability", "ML"]
-  link: "/posts/ar-fishing-sustainable-decision-support/"
-  button_text: "Read Case Study"
-
 - title: "Cross-Cultural Information Seeking"
   subtitle: "Master's Thesis Research"
   image: "/assets/img/projects/cultural-ux-hero.svg"
@@ -32,3 +18,17 @@
   tags: ["Quantum Computing", "Machine Learning", "Deep Learning", "Research"]
   link: "/posts/quantum-machine-learning/"
   button_text: "Read More"
+
+- title: "BookLens: AR Book Discovery"
+  subtitle: "UX Research & Product Design"
+  image: "/assets/img/booklens/booklens-hero.svg"
+  tags: ["Augmented Reality", "UX Research", "Mobile Design", "HCI"]
+  link: "/posts/booklens-ar-book-discovery/"
+  button_text: "Read Case Study"
+
+- title: "AR Fishing: Sustainable Decision Support"
+  subtitle: "Environmental Technology & Interaction Design"
+  image: "/assets/img/arfishing/ar-fishing-hero.svg"
+  tags: ["Augmented Reality", "Computer Vision", "Sustainability", "ML"]
+  link: "/posts/ar-fishing-sustainable-decision-support/"
+  button_text: "Read Case Study"

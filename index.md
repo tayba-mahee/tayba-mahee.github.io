@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Home
+# title: Home
 icon: fas fa-home
 ---
 
 <link rel="stylesheet" href="/assets/css/home-page.css">
 <link rel="stylesheet" href="/assets/css/project-tiles.css">
 
-<div class="home-hero">
+<!-- <div class="home-hero">
   <h1>Mahee Noor Tayba</h1>
   <p class="tagline">Computer Scientist | Educator | Researcher</p>
   <p class="intro">Passionate about creating inclusive learning environments and advancing technology through research in Human-Computer Interaction, Machine Learning, and User Experience Design.</p>
-</div>
+</div> -->
 
 ---
 
@@ -67,22 +67,24 @@ icon: fas fa-home
   <div class="interests-grid">
     
     <div class="interest-card">
-      <span class="icon">💻</span>
-      <h4>Human-Computer Interaction</h4>
-      <p>Cultural factors in user experience and information-seeking behavior</p>
-    </div>
-
-    <div class="interest-card">
       <span class="icon">🤖</span>
       <h4>Machine Learning</h4>
       <p>Healthcare applications, environmental monitoring, and fair AI systems</p>
     </div>
 
     <div class="interest-card">
+      <span class="icon">💻</span>
+      <h4>Human-Computer Interaction</h4>
+      <p>Cultural factors in user experience and information-seeking behavior</p>
+    </div>
+
+
+
+    <!-- <div class="interest-card">
       <span class="icon">👁️</span>
       <h4>Computer Vision</h4>
       <p>Medical image analysis and satellite imagery processing</p>
-    </div>
+    </div> -->
 
     <div class="interest-card">
       <span class="icon">🔍</span>
