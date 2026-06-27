@@ -264,10 +264,6 @@ The application was organized around five primary content areas:
 - Community
 - Inspiration
 
-Grouping related features simplified navigation and reduced cognitive load.
-
-![Information Architecture](/assets/img/sheleads/information-architecture.png)
-
 ---
 
 # Product Concept
@@ -295,7 +291,7 @@ Low-fidelity wireframes were created to validate navigation, information hierarc
 
 This stage focused on usability rather than aesthetics.
 
-![Wireframes](/assets/img/sheleads/wireframes.png)
+<!-- ![Wireframes](/assets/img/sheleads/wireframes.png) -->
 
 ---
 
