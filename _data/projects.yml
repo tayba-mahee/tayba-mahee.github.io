@@ -12,6 +12,14 @@
   link: "/projects/baylor-navigation/"
   button_text: "Read More"
 
+- title: "AR Fishing: Sustainable Decision Support"
+  subtitle: "Environmental Technology & Interaction Design"
+  image: "/assets/img/arfishing/ar-fishing-hero.svg"
+  tags: ["Augmented Reality", "Computer Vision", "Sustainability", "ML"]
+  link: "/posts/ar-fishing-sustainable-decision-support/"
+  button_text: "Read Case Study"
+
+  
 - title: "Quantum-Classical Hybrid Models"
   subtitle: "Machine Learning Research"
   image: "/assets/img/projects/quantum-ml-hero.svg"
@@ -26,9 +34,3 @@
   link: "/posts/booklens-ar-book-discovery/"
   button_text: "Read Case Study"
 
-- title: "AR Fishing: Sustainable Decision Support"
-  subtitle: "Environmental Technology & Interaction Design"
-  image: "/assets/img/arfishing/ar-fishing-hero.svg"
-  tags: ["Augmented Reality", "Computer Vision", "Sustainability", "ML"]
-  link: "/posts/ar-fishing-sustainable-decision-support/"
-  button_text: "Read Case Study"

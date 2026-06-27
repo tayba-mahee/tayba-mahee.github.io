@@ -66,7 +66,7 @@ icon: fas fa-home
   <h2>Research Interests</h2>
   <div class="interests-grid">
     
-    <div class="interest-card">
+    <div class="interest-card">x
       <span class="icon">🤖</span>
       <h4>Machine Learning</h4>
       <p>Healthcare applications, environmental monitoring, and fair AI systems</p>
@@ -101,27 +101,6 @@ icon: fas fa-home
   <h2>Featured Projects</h2>
   <div class="projects-showcase">
     
-    <!-- BookLens -->
-    <a href="/posts/booklens-ar-book-discovery/" class="project-card">
-      <div class="project-card-image" style="background-image: url('/assets/img/booklens/booklens-hero.svg');" role="img" aria-label="BookLens"></div>
-      <div class="project-card-overlay"></div>
-      <div class="project-card-content">
-        <span class="project-card-subtitle">UX Research & Product Design</span>
-        <h3 class="project-card-title">BookLens: AR Book Discovery</h3>
-        <div class="project-card-tags">
-          <span class="project-tag">Augmented Reality</span>
-          <span class="project-tag">UX Research</span>
-          <span class="project-tag">HCI</span>
-        </div>
-        <span class="project-card-button">
-          Read Case Study
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
-        </span>
-      </div>
-    </a>
-
     <!-- AR Fishing -->
     <a href="/posts/ar-fishing-sustainable-decision-support/" class="project-card">
       <div class="project-card-image" style="background-image: url('/assets/img/arfishing/ar-fishing-hero.svg');" role="img" aria-label="AR Fishing"></div>
@@ -143,6 +122,30 @@ icon: fas fa-home
       </div>
     </a>
 
+
+
+    <!-- BookLens -->
+    <a href="/posts/booklens-ar-book-discovery/" class="project-card">
+      <div class="project-card-image" style="background-image: url('/assets/img/booklens/booklens-hero.svg');" role="img" aria-label="BookLens"></div>
+      <div class="project-card-overlay"></div>
+      <div class="project-card-content">
+        <span class="project-card-subtitle">UX Research & Product Design</span>
+        <h3 class="project-card-title">BookLens: AR Book Discovery</h3>
+        <div class="project-card-tags">
+          <span class="project-tag">Augmented Reality</span>
+          <span class="project-tag">UX Research</span>
+          <span class="project-tag">HCI</span>
+        </div>
+        <span class="project-card-button">
+          Read Case Study
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </span>
+      </div>
+    </a>
+
+
     <!-- Baylor Navigation -->
     <a href="/projects/baylor-navigation/" class="project-card">
       <div class="project-card-image" style="background-image: url('/assets/img/projects/baylor-nav-hero.svg');" role="img" aria-label="Baylor Navigation"></div>
@@ -163,6 +166,29 @@ icon: fas fa-home
         </span>
       </div>
     </a>
+
+
+
+    <!-- SheLeads -->
+<a href="/posts/sheleads-career-growth-platform/" class="project-card">
+  <div class="project-card-image" style="background-image: url('/assets/img/sheleads/sheleads-hero.png');" role="img" aria-label="SheLeads"></div>
+  <div class="project-card-overlay"></div>
+  <div class="project-card-content">
+    <span class="project-card-subtitle">Product Design & UX Research</span>
+    <h3 class="project-card-title">SheLeads: Career Growth Platform for Women in STEM</h3>
+    <div class="project-card-tags">
+      <span class="project-tag">UX Research</span>
+      <span class="project-tag">Interaction design</span>
+      <span class="project-tag">Figma</span>
+    </div>
+    <span class="project-card-button">
+      Read Case Study
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+      </svg>
+    </span>
+  </div>
+</a>
 
   </div>
 
