@@ -66,7 +66,7 @@ icon: fas fa-home
   <h2>Research Interests</h2>
   <div class="interests-grid">
     
-    <div class="interest-card">x
+    <div class="interest-card">
       <span class="icon">🤖</span>
       <h4>Machine Learning</h4>
       <p>Healthcare applications, environmental monitoring, and fair AI systems</p>
@@ -237,7 +237,7 @@ icon: fas fa-home
 <div class="home-section">
   <h2>Get in Touch</h2>
   <div class="contact-section">
-    <p style="font-size: 1.1rem; margin-bottom: 2rem; color: var(--text-color);">
+    <p style="font-size: 0.95rem; margin-bottom: 1rem; color: var(--text-color);">
       I'm always interested in collaborative opportunities, research discussions, and connecting with fellow educators and researchers.
     </p>
     <div class="contact-grid">
