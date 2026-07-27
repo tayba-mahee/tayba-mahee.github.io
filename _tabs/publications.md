@@ -76,4 +76,16 @@ My research focuses on the following domains:
 
 ---
 
+## View Full Publication List
+
+For a complete list of my publications, citations, and research metrics, visit my Google Scholar profile:
+
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="https://scholar.google.com/citations?user=sLUz_AoAAAAJ&hl=en" target="_blank" class="cta-btn cta-btn-primary" style="display: inline-flex; align-items: center; padding: 12px 28px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; border-radius: 30px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+    📚 View Google Scholar Profile
+  </a>
+</div>
+
+---
+
 For collaboration opportunities or questions about my research, please feel free to [contact me](/#contact).

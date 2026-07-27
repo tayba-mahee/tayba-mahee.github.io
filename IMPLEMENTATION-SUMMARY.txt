@@ -86,7 +86,7 @@ COMPLETED FEATURES
    - Date: 2024-06-10
 
 ✅ ASSETS
-- Resume PDF copied: assets/MaheeTayba-CV.pdf
+- Resume PDF copied: assets/resume-MaheeTayba.pdf
 - Accessible via download link on About page
 - All research paper links functional
 

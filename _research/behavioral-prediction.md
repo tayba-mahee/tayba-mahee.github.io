@@ -8,11 +8,11 @@ permalink: /research/behavioral-prediction/
 
 **Domain:** Computational Biology & Machine Learning  
 **Institution:** Baylor University  
-**Duration:** 2021-2023
+**Duration:** 2021-20222
 
 ### Overview
 
-This research project focused on developing supervised machine learning models to predict behavioral features using bone marker data from primate subjects. The work bridged computational biology and machine learning to provide insights into behavioral analysis through quantitative skeletal measurements.
+This research project focused on developing supervised machine learning models to predict behavioral features using bone marker data from primate subjects. We worked on whether sex, age of onset of alcohol intake, and species influence the effects of graded increases in alcohol consumption on bone turnover markers in non-human primates. The work bridged computational biology and machine learning to provide insights into behavioral analysis through quantitative skeletal measurements.
 
 ### Research Objectives
 
@@ -32,7 +32,7 @@ This research project focused on developing supervised machine learning models t
 **Feature Engineering:**
 - Analyzed correlation between bone markers and behavioral features
 - Selected relevant features using statistical methods
-- Applied dimensionality reduction techniques (PCA)
+- Applied generalized linear regression model.
 - Created derived features based on domain knowledge
 
 **Model Development:**
@@ -77,4 +77,4 @@ This research contributed to the understanding of the relationship between skele
 
 ---
 
-*This research was conducted as part of my graduate research assistantship at Baylor University's Computer Science Department in collaboration with the Biology Department.*
+*This research was conducted as part of my graduate research assistantship at Baylor University's Computer Science Department.*

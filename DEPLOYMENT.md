@@ -110,7 +110,7 @@ Edit `_config.yml`:
 social:
   links:
     - https://github.com/maheetayba
-    - https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME
+    - https://www.linkedin.com/in/mahee-noor-tayba/
 ```
 
 ### Add Profile Picture

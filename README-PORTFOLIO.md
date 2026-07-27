@@ -31,7 +31,7 @@ copilot-resume-site/
 │   └── tags.md          # Post tags
 ├── _posts/              # Blog posts
 ├── assets/              # Static assets
-│   └── MaheeTayba-CV.pdf # Downloadable resume
+│   └── resume-MaheeTayba.pdf # Downloadable resume
 └── _site/               # Generated site (auto-created)
 ```
 
@@ -148,7 +148,7 @@ Uncomment and update social links in `_config.yml`:
 social:
   links:
     - https://github.com/maheetayba
-    - https://www.linkedin.com/in/yourprofile
+    - https://www.linkedin.com/in/mahee-noor-tayba/
 ```
 
 ### Adding Google Analytics

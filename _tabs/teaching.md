@@ -203,8 +203,8 @@ order: 2
     <div class="interest-item">
       <h4>🔢 Theoretical Courses</h4>
       <ul>
-        <li>Discrete Structures</li>
-        <li>System Analysis and Design</li>
+        <li> Discrete Structures</li>
+        <li> System Analysis and Design</li>
       </ul>
     </div>
 

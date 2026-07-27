@@ -226,7 +226,7 @@ icon: fas fa-home
   <h2>Download CV</h2>
   <p style="margin-bottom: 2rem; font-size: 1.05rem;">Get a comprehensive overview of my education, experience, and achievements.</p>
   <div class="cta-buttons">
-    <a href="/assets/MaheeTayba-CV.pdf" class="cta-btn cta-btn-primary" download>
+    <a href="/assets/resume-MaheeTayba.pdf" class="cta-btn cta-btn-primary" download>
       📄 Download Resume (PDF)
     </a>
   </div>
