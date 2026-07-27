@@ -73,14 +73,4 @@ Computer science education continues to evolve. I'm particularly interested in:
 - **Inclusive Pedagogy**: Ensuring all students feel welcome and capable
 - **Industry Alignment**: Keeping curriculum relevant to real-world needs
 
-## Resources for Fellow Educators
-
-If you're teaching CS, here are some resources I find valuable:
-
-- **ACM SIGCSE**: Conference and community for CS education
-- **CS Teaching Tips**: Quick, research-based teaching strategies
-- **Stack Overflow for Educators**: Community discussions on teaching challenges
-
 ---
-
-*Are you a CS educator? I'd love to hear about your teaching experiences and strategies!*

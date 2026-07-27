@@ -33,7 +33,6 @@ Throughout my graduate research experience, I:
 - **Presented Research**: Shared findings and discussed papers in weekly research lab meetings
 - **Collaborated Across Disciplines**: Worked with researchers from biology, environmental science, and computer science
 - **Published Findings**: Co-authored peer-reviewed publications in conferences and journals
-- **Mentored Peers**: Assisted fellow graduate students with research methodology and technical challenges
 
 ---
 
@@ -80,14 +79,4 @@ My ongoing research interests include:
 - **Quantum Computing**: Quantum-classical hybrid models for practical applications
 
 ---
-
-## Collaboration Opportunities
-
-I'm always interested in collaborative research opportunities, particularly at the intersection of:
-- Machine learning and healthcare
-- Cultural computing and HCI
-- AI ethics and fairness
-- Educational technology and learning analytics
-
-If you're working in these areas or have research collaboration ideas, please [contact me](/#contact).
 

@@ -4,10 +4,17 @@ icon: fas fa-book-open
 order: 4
 ---
 
+<link rel="stylesheet" href="/assets/css/publications-page.css">
+
 ## Research Publications
 
+<div class="publication-card" markdown="1">
+<div class="publication-meta">
+<span class="citation-count">📊 Cited by: 7</span>
+<span class="venue-badge">IEEE Conference Publication</span>
+</div>
+
 ### Enhancing the Resolution of Satellite Imagery Using a Generative Model
-**IEEE Conference Publication**
 
 Explored the application of image super-resolution techniques to satellite imagery from NASA's Moderate Resolution Imaging Spectroradiometer (MODIS). Developed a Super Resolution Generative Adversarial Network (SRGAN) to generate high-resolution images from low-resolution inputs.
 
@@ -17,11 +24,15 @@ Explored the application of image super-resolution techniques to satellite image
 - Achieved photorealistic super-resolved satellite images
 
 [Read Paper](https://ieeexplore.ieee.org/abstract/document/9799082){: .btn .btn-primary}
+</div>
 
----
+<div class="publication-card" markdown="1">
+<div class="publication-meta">
+<span class="citation-count">📊 Cited by: 3</span>
+<span class="venue-badge">IEEE Survey Paper</span>
+</div>
 
 ### Unsupervised Machine Learning Methods for Diagnosing Autism Spectrum Disorder Using Multimodal Data: A Survey
-**IEEE Survey Paper**
 
 Conducted an in-depth survey and review of research papers focusing on unsupervised machine learning techniques for diagnosing Autism Spectrum Disorder (ASD) using multimodal data.
 
@@ -31,11 +42,15 @@ Conducted an in-depth survey and review of research papers focusing on unsupervi
 - Support for early intervention and improved long-term outcomes
 
 [Read Paper](https://ieeexplore.ieee.org/abstract/document/10216749){: .btn .btn-primary}
+</div>
 
----
+<div class="publication-card" markdown="1">
+<div class="publication-meta">
+<span class="citation-count">📊 Cited by: 5</span>
+<span class="venue-badge">AI Research Conference</span>
+</div>
 
 ### Using Quantum Circuits with Convolutional Neural Network for Pneumonia Detection
-**AI Research Conference**
 
 Explored the integration of quantum circuits with CNNs to create a hybrid quantum-classical model for medical image classification.
 
@@ -46,11 +61,15 @@ Explored the integration of quantum circuits with CNNs to create a hybrid quantu
 - Demonstrated efficacy in pneumonia detection from X-ray images
 
 [Read Paper](https://rivas.ai/pdfs/tayba2022using.pdf){: .btn .btn-primary}
+</div>
 
----
+<div class="publication-card" markdown="1">
+<div class="publication-meta">
+<span class="citation-count">📊 New Publication</span>
+<span class="venue-badge">arXiv Preprint</span>
+</div>
 
 ### Predicting Traffic Accident Severity with Deep Neural Networks
-**arXiv Preprint**
 
 Developed deep neural network models for predicting traffic accident severity, leveraging recent advancements in machine learning techniques.
 
@@ -61,8 +80,7 @@ Developed deep neural network models for predicting traffic accident severity, l
 - Contributed to traffic accident risk mitigation strategies
 
 [Read Paper](https://arxiv.org/abs/2509.03819){: .btn .btn-primary}
-
----
+</div>
 
 ## Research Areas
 
@@ -87,5 +105,3 @@ For a complete list of my publications, citations, and research metrics, visit m
 </div>
 
 ---
-
-For collaboration opportunities or questions about my research, please feel free to [contact me](/#contact).

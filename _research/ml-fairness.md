@@ -105,12 +105,10 @@ This research addresses critical questions for responsible AI deployment:
 
 ### Tools & Technologies
 
-**Machine Learning:** Python, PyTorch, scikit-learn, Fairlearn  
-**Fairness Analysis:** AIF360 (IBM), Fairness Indicators  
-**Robustness:** Adversarial Robustness Toolbox, CleverHans  
+**Machine Learning:** Python, PyTorch, scikit-learn
+**Robustness:** Adversarial Robustness Toolbox
 **Statistical Analysis:** NumPy, Pandas, statistical testing libraries  
-**Visualization:** Matplotlib, Seaborn, bias visualization tools
-
+**Visualization:** Matplotlib, Seaborn
 ---
 
 ## Related Publications
@@ -120,16 +118,6 @@ This research contributed to:
 - Research lab presentations
 - Academic discussions on AI ethics
 
----
 
-## Future Directions
-
-Potential extensions of this research include:
-- Empirical studies with larger datasets
-- Development of fairness-robust training algorithms
-- Real-world case studies in high-stakes domains
-- Policy recommendations for fair AI deployment
-
----
 
 *This research was conducted as part of my graduate research assistantship at Baylor University, contributing to NSF proposal development in AI ethics and responsible machine learning.*

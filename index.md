@@ -222,8 +222,8 @@ icon: fas fa-home
 
 ---
 
-<div class="home-section" style="text-align: center;">
-  <h2>Download CV</h2>
+<div class="home-section">
+  <h2>Download Resume</h2>
   <p style="margin-bottom: 2rem; font-size: 1.05rem;">Get a comprehensive overview of my education, experience, and achievements.</p>
   <div class="cta-buttons">
     <a href="/assets/resume-MaheeTayba.pdf" class="cta-btn cta-btn-primary" download>
@@ -237,26 +237,23 @@ icon: fas fa-home
 <div class="home-section">
   <h2>Get in Touch</h2>
   <div class="contact-section">
-    <p style="font-size: 0.95rem; margin-bottom: 1rem; color: var(--text-color);">
-      I'm always interested in collaborative opportunities, research discussions, and connecting with fellow educators and researchers.
-    </p>
     <div class="contact-grid">
       
       <div class="contact-item">
         <div class="icon">📧</div>
-        <h4>Email</h4>
-        <a href="mailto:mahee.noor.tayba@gmail.com">mahee.noor.tayba@gmail.com</a>
+        
+        <a href="mailto:maheentayba@gmail.com">maheentayba@gmail.com</a>
       </div>
 
       <div class="contact-item">
         <div class="icon">📍</div>
-        <h4>Location</h4>
+        
         <p style="margin: 0; color: var(--text-muted);">Austin, Texas</p>
       </div>
 
       <div class="contact-item">
         <div class="icon">📱</div>
-        <h4>Phone</h4>
+        
         <a href="tel:+12547150475">(254) 715-0475</a>
       </div>
 

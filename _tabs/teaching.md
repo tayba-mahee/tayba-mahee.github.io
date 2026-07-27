@@ -229,7 +229,6 @@ I continuously work to improve my teaching through:
 - Participating in pedagogy workshops and conferences at Baylor's Academy for Teaching and Learning
 - Incorporating evidence-based teaching practices from education research
 - Seeking and responding to student feedback through regular course evaluations and mid-semester check-ins
-- Staying current with CS education research and best practices
 - Attending workshops on classroom equity, transparent teaching methods, and serving diverse students
 
 For insights into my teaching philosophy and methods, read my blog post on [Teaching Computer Science](/posts/teaching-computer-science/).
