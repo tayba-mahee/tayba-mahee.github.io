@@ -2,8 +2,8 @@
   <!-- Baylor Navigation Hero -->
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#154734;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFB81C;stop-opacity:0.7" />
+      <stop offset="0%" style="stop-color:#A8D5BA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE6B8;stop-opacity:0.8" />
     </linearGradient>
   </defs>
   

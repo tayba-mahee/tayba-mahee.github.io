@@ -2,13 +2,13 @@
   <!-- Hero Image for AR Fishing -->
   <defs>
     <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#006994;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#004B6E;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#003D5C;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#A8D5E2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#89C9D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6BB5CF;stop-opacity:1" />
     </linearGradient>
     <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#81D4FA;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#4FC3F7;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BBDEFB;stop-opacity:1" />
     </linearGradient>
   </defs>
   

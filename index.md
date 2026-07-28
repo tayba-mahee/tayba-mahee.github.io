@@ -171,7 +171,7 @@ icon: fas fa-home
 
     <!-- SheLeads -->
 <a href="/posts/sheleads-career-growth-platform/" class="project-card">
-  <div class="project-card-image" style="background-image: url('/assets/img/sheleads/sheleads-hero.png');" role="img" aria-label="SheLeads"></div>
+  <div class="project-card-image" style="background-image: url('/assets/img/sheleads/sheleads-hero.svg');" role="img" aria-label="SheLeads"></div>
   <div class="project-card-overlay"></div>
   <div class="project-card-content">
     <span class="project-card-subtitle">Product Design & UX Research</span>

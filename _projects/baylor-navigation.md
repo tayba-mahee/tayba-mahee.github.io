@@ -155,13 +155,6 @@ This project was developed collaboratively by:
 - UML diagram creation for system design
 - Agile development methodology
 
----
-
-## Related Repository
-
-View the complete source code and technical documentation:
-
-**Backend Repository**: [GoBears Backend on GitHub](https://github.com/yudeep-rajbhandari/goBearsBackEnd)
 
 ---
 
