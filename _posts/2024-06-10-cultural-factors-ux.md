@@ -5,105 +5,109 @@ categories: [Research, HCI]
 tags: [human-computer interaction, user experience, cross-cultural design, usability]
 ---
 
-## Understanding Culture in UX
+## Overview
 
-How do cultural differences affect how people interact with technology? This question drove my master's thesis research at Baylor University, where I investigated cross-cultural information-seeking behavior and website navigation patterns.
+How do cultural differences impact information-seeking behavior and the recollection of information on websites? This master's project at Baylor University investigated cross-cultural differences in visual attention patterns, search efficiency, and memory recall when navigating websites.
+
 
 ## The Research Question
 
-People from different cultural backgrounds often have distinct cognitive strategies, information processing preferences, and interaction patterns. My research aimed to understand:
+Western cultures tend to adopt analytic processing, focusing on specific elements while overlooking broader context. East Asian cultures demonstrate holistic processing, emphasizing the entire visual scene and its contextual relevance. Previous research suggested these differences impact website navigation speed and information recall.
 
-- How do cultural differences impact website navigation?
-- What role does culture play in information retention from websites?
-- Can we design more culturally adaptive interfaces?
+> Do these cultural differences in cognitive processing translate to measurable differences in website navigation and information retention?
 
 ## Methodology
 
-### User Study Design
+### Study Design
 
-I conducted comprehensive user studies involving participants from diverse cultural backgrounds:
+I conducted an **online study with 110 participants** from diverse cultural backgrounds:
+- **87 participants** from Western cultures (USA, Canada, European countries)
+- **23 participants** from Eastern cultures (Bangladesh, China, India, Japan, Pakistan, and other Asian countries)
 
-1. **Participant Selection**: Recruited individuals from varied cultural groups
-2. **Task Design**: Created realistic information-seeking scenarios
-3. **Data Collection**: Tracked navigation patterns, time-on-task, and recall accuracy
-4. **Analysis**: Combined qualitative and quantitative methods
+### Experimental Setup
 
-### Applying Fitts' Law
+Participants viewed website screenshots of varying complexities and completed tasks:
+1. Find specific target information (foreground vs. background areas)
+2. Answer memory recall questions about website content
+3. Mouse/touchpad movements were tracked
 
-Fitts' Law predicts the time required to move to a target based on distance and size. I applied this principle to understand:
+### Theoretical Framework
 
-- How cultural factors influence clicking patterns
-- Whether target acquisition differs across cultural groups
-- Implications for culturally-adaptive interface design
+- **Hofstede's Cultural Dimensions**: Analyzed participants using six cultural dimensions (Power Distance, Individualism, Uncertainty Avoidance, etc.)
+- **Fitts' Law**: Applied to analyze pointing tasks and movement efficiency
 
 ## Key Findings
 
-While specific results are detailed in my thesis, some general insights include:
+### Search Efficiency: Culture vs. Complexity
 
-### Navigation Patterns Vary
+**Result:** No significant cultural difference in search time for foreground vs. background areas.
 
-Different cultural groups exhibited distinct navigation strategies:
-- Some preferred hierarchical exploration
-- Others used search-first approaches
-- Visual vs. text-based navigation preferences varied
+This finding contradicted previous research suggesting East Asians scan websites circularly and locate information faster. Instead, **website complexity** was the dominant factor:
 
-### Information Retention Differences
+- **Low-to-medium complexity**: Both groups performed similarly
+- **High complexity**: Complexity overshadowed any cultural differences (p < 0.001)
 
-Cultural background influenced how users:
-- Processed and remembered information
-- Prioritized different types of content
-- Responded to various design patterns
+### Memory Recall Patterns
 
-### Design Implications
+Cultural background showed **no significant association** with memory recall accuracy (χ² test, p > 0.05).
 
-These findings suggest opportunities for:
-- **Adaptive Interfaces**: Systems that adjust to user cultural preferences
-- **Localization Beyond Translation**: Going beyond language to consider cognitive patterns
-- **Universal Design Principles**: Identifying elements that work across cultures
+However, two factors did impact recall:
+- **Target area**: Foreground information recalled better than background (significant, p < 0.05)
+- **Website complexity**: Higher complexity → better recall (users spent more time encoding)
 
-## Practical Applications
+### Cultural Dimension Analysis
+
+Comparison of Bangladesh (representing Eastern participants) vs. USA (representing Western participants) confirmed genuine cultural differences:
+
+| Dimension | Bangladesh | USA |
+|-----------|------------|-----|
+| Individualism | 20 | 91 |
+| Power Distance | 80 | 40 |
+| Uncertainty Avoidance | 60 | 46 |
+| Indulgence | 20 | 68 |
+
+Despite these cultural differences, navigation patterns were remarkably similar.
+
+
+
+## Practical Implications
 
 ### For UX Designers
 
-Consider these aspects when designing for global audiences:
+**Focus on Universal Efficiency:**
+- Prioritize clarity and intuitive navigation
+- Optimize information architecture
+- Test with diverse user groups
 
-1. **Navigation Structure**: Offer multiple pathways (hierarchical, search, etc.)
-2. **Visual Hierarchy**: Be mindful of scanning patterns that vary by culture
-3. **Content Density**: Balance information richness with clarity
-4. **Icons and Symbols**: Ensure cultural appropriateness
+**Manage Complexity Strategically:**
+- Low-to-medium complexity for quick scanning
+- Higher complexity acceptable when deep engagement is desired
+- Place critical information in foreground areas
 
-### For Researchers
+**Cultural Considerations Still Matter:**
+- Color preferences (red/blue usage differs)
+- Layout density (Chinese sites often denser)
+- Imagery types (leaders/rituals vs. nature/daily life)
+- Navigation patterns (new windows, link highlighting)
 
-Future research opportunities include:
 
-- Longitudinal studies tracking cultural adaptation to interfaces
-- AI-driven personalization based on cultural factors
-- Cross-cultural mobile interaction patterns
-- Cultural factors in AR/VR experiences
 
-## Challenges in Cross-Cultural Research
-
-Conducting this research came with challenges:
-
-- **Recruitment**: Finding diverse participant pools
-- **Cultural Sensitivity**: Ensuring respectful research practices
-- **Generalization**: Balancing specific findings with broader insights
-- **Intersectionality**: Considering how culture intersects with other factors
-
-## The Future of Culturally Adaptive Systems
-
-As technology becomes increasingly global, culturally-aware design will become essential:
-
-- **AI Personalization**: Systems that learn individual and cultural preferences
-- **Inclusive Design**: Ensuring accessibility across cultural contexts
-- **Ethical Considerations**: Respecting privacy while personalizing experiences
+## Future Directions
+- **Language impact**: Test with native language websites
+- **Eye tracking**: Reveal precise attention patterns
+- **Mobile platforms**: Investigate touch vs. click interactions
+- **Longitudinal studies**: Track cultural adaptation over time
 
 ## Conclusion
 
-Culture shapes how we interact with technology in profound ways. By understanding these cultural factors, we can design more inclusive, effective, and user-friendly systems for global audiences.
+While psychological research demonstrates clear cultural differences in visual attention patterns, our study suggests **these differences don't always translate directly to website navigation performance**.
 
-My research represents just one step in this important area. There's much more to explore at the intersection of culture, cognition, and technology.
+Key takeaways:
+- Search efficiency was similar across cultures
+- Website complexity matters more than cultural background
+- Memory recall patterns were universal (foreground better than background)
+- Focus on clarity and efficiency serves users across cultures
+
+This research contributes to the ongoing discussion about culture in HCI, suggesting that certain functional aspects of web interaction may be converging across cultures in our increasingly globalized digital world.
 
 ---
-
-*Interested in cross-cultural UX research? I'm always happy to discuss these topics—reach out!*

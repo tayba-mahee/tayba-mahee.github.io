@@ -67,7 +67,7 @@ icon: fas fa-home
   <div class="interests-grid">
     
     <div class="interest-card">
-      <span class="icon">🤖</span>
+      <span class="icon">🧠</span>
       <h4>Machine Learning</h4>
       <p>Healthcare applications, environmental monitoring, and fair AI systems</p>
     </div>
@@ -226,8 +226,8 @@ icon: fas fa-home
   <h2>Download Resume</h2>
   <p style="margin-bottom: 2rem; font-size: 1.05rem;">Get a comprehensive overview of my education, experience, and achievements.</p>
   <div class="cta-buttons">
-    <a href="/assets/resume-MaheeTayba.pdf" class="cta-btn cta-btn-primary" download>
-      📄 Download Resume (PDF)
+    <a href="/assets/resume-MaheeTayba.pdf" class="cta-btn cta-btn-primary" target="_blank">
+    Download Resume (PDF)
     </a>
   </div>
 </div>
