@@ -76,12 +76,11 @@ order: 6
     <div class="hobby-card-content">
       <span class="hobby-card-icon">🌍</span>
       <h3>Traveling</h3>
-      <p>Exploring different cultures, cuisines, and perspectives around the world. Travel enriches my understanding of cultural diversity—insights that directly inform my HCI research.</p>
+      <p>Exploring different cultures, foods, and perspectives around the world.</p>
       
       <ul class="hobby-highlights">
-        <li>Exploring diverse cultures and traditions</li>
+        <li>Exploring different places</li>
         <li>Documenting experiences through photography</li>
-        <li>Learning about local customs and cuisines</li>
       </ul>
       
       <!-- <div class="hobby-stats">

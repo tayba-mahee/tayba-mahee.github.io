@@ -1,20 +1,17 @@
 ---
 layout: page
-title: Cat Fostering
+title: Cat Advocacy
 permalink: /cats/
 ---
 
 <link rel="stylesheet" href="/assets/css/cat-fostering.css">
 
 <div class="cat-page-header">
-  <h1>🐾 Adventure with Cats</h1>
+  <h1> Adventure with Cats</h1>
 </div>
 
 <div class="fostering-intro">
   <div class="intro-content">
-    <h2>💕 Why I love cats</h2>
-    <p>I mean what's there to not like? </p>
-    
     <div class="stats-row">
       <div class="stat-box">
         <span class="stat-number">13</span>
