@@ -17,7 +17,7 @@ permalink: /cats/
     
     <div class="stats-row">
       <div class="stat-box">
-        <span class="stat-number">12</span>
+        <span class="stat-number">13</span>
         <span class="stat-label">Shelter Fosters</span>
       </div>
       <div class="stat-box">
@@ -25,11 +25,11 @@ permalink: /cats/
         <span class="stat-label">Adopted</span>
       </div>
       <div class="stat-box">
-        <span class="stat-number">2</span>
-        <span class="stat-label">Boarded Cats</span>
+        <span class="stat-number">6</span>
+        <span class="stat-label">Boarding and Cat Sitting</span>
       </div>
       <div class="stat-box">
-        <span class="stat-number">11</span>
+        <span class="stat-number">15</span>
         <span class="stat-label">Community Cats</span>
       </div>
     </div>
