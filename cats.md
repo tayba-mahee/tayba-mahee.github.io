@@ -6,6 +6,12 @@ permalink: /cats/
 
 <link rel="stylesheet" href="/assets/css/cat-fostering.css">
 
+<!-- Paintable Canvas Header -->
+<!-- <div class="paintable-header">
+  <canvas id="paintCanvas"></canvas>
+  <div class="paint-instructions">✨ Move your cursor to reveal the image!</div>
+</div> -->
+
 <div class="cat-page-header">
   <h1> Adventure with Cats</h1>
 </div>
@@ -633,5 +639,80 @@ document.querySelectorAll('.photo-slider').forEach(slider => {
       }
     }
   });
+});
+</script>
+
+<script>
+// Paintable Canvas - Reveal on Hover
+const canvas = document.getElementById('paintCanvas');
+const ctx = canvas.getContext('2d');
+let backgroundImage = new Image();
+let imageLoaded = false;
+
+// Set canvas size
+function resizeCanvas() {
+  const container = canvas.parentElement;
+  canvas.width = container.offsetWidth;
+  canvas.height = container.offsetHeight;
+  
+  if (imageLoaded) {
+    drawOverlay();
+  }
+}
+
+// Load background image
+backgroundImage.onload = function() {
+  imageLoaded = true;
+  resizeCanvas();
+};
+backgroundImage.src = '/assets/Cats/Kiki/kiki-01.jpg';
+
+// Draw the colored overlay that hides the image
+function drawOverlay() {
+  // First draw the image
+  ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+  
+  // Then cover it with a semi-transparent overlay
+  ctx.fillStyle = 'rgba(255, 245, 235, 0.95)';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+}
+
+resizeCanvas();
+window.addEventListener('resize', resizeCanvas);
+
+// Reveal the image on hover (no clicking needed)
+function revealImage(e) {
+  if (!imageLoaded) return;
+  
+  const rect = canvas.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+  
+  // Use destination-out to "erase" the overlay and reveal the image
+  ctx.globalCompositeOperation = 'destination-out';
+  ctx.beginPath();
+  ctx.arc(x, y, 30, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(0, 0, 0, 1)';
+  ctx.fill();
+  ctx.globalCompositeOperation = 'source-over';
+}
+
+// Mouse events - just hovering reveals the image
+canvas.addEventListener('mousemove', revealImage);
+
+// Touch events for mobile
+canvas.addEventListener('touchmove', (e) => {
+  e.preventDefault();
+  const touch = e.touches[0];
+  const rect = canvas.getBoundingClientRect();
+  const x = touch.clientX - rect.left;
+  const y = touch.clientY - rect.top;
+  
+  ctx.globalCompositeOperation = 'destination-out';
+  ctx.beginPath();
+  ctx.arc(x, y, 30, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(0, 0, 0, 1)';
+  ctx.fill();
+  ctx.globalCompositeOperation = 'source-over';
 });
 </script>

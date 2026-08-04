@@ -1,5 +1,55 @@
 /* Cat Fostering Page Styles */
 
+/* Paintable Canvas Header */
+.paintable-header {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  cursor: crosshair;
+}
+
+.paintable-header canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+
+.paint-instructions {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  color: #666;
+  pointer-events: none;
+  animation: fadeIn 1s ease-in;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .paintable-header {
+    height: 300px;
+  }
+  
+  .paint-instructions {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}
+
 .cat-page-header {
   text-align: center;
   margin-bottom: 2rem;
