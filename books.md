@@ -25,13 +25,30 @@ permalink: /books/
     </button>
     <div class="book-grid">
       
-      <!-- Template: Duplicate for each book -->
+      <!-- Template: Duplicate for each book 
+<!--
+      <div class="book-item">
+        <div class="book-cover">
+          <img src="/assets/books/a-thousand-splendid-suns.jpg" alt="A Thousand Splendid Suns">
+        </div>
+        <div class="book-title">A Thousand Splendid Suns</div>
+        <div class="book-author">Khaled Hosseni</div>
+      </div>
+
       <div class="book-item">
         <div class="book-cover">
           <img src="/assets/books/anxious-people.jpg" alt="Anxious People">
         </div>
         <div class="book-title">Anxious People</div>
         <div class="book-author">Fredrik Backman</div>
+      </div>
+-->
+      <div class="book-item">
+        <div class="book-cover">
+          <img src="/assets/books/life-of-pi.jpg" alt="Life of Pi">
+        </div>
+        <div class="book-title">Life of Pi</div>
+        <div class="book-author">Yann Martel</div>
       </div>
 
       <div class="book-item">

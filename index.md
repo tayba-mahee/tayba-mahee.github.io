@@ -9,7 +9,7 @@ icon: fas fa-home
 
 <!-- <div class="home-hero">
   <h1>Mahee Noor Tayba</h1>
-  <p class="tagline">Computer Scientist | Educator | Researcher</p>
+  <p class="tagline">Computer Scientist | Researcher | Educator</p>
   <p class="intro">Passionate about creating inclusive learning environments and advancing technology through research in Human-Computer Interaction, Machine Learning, and User Experience Design.</p>
 </div> -->
 

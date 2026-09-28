@@ -8,7 +8,7 @@ order: 6
 
 <div class="teaching-hero">
   <h1>Beyond Work</h1>
-  <p>When I'm not working, I enjoy exploring the world, reading stories, and caring for our feline friends.</p>
+  <p>When I'm not working, I am travelling, reading books, and caring for cats.</p>
 </div>
 
 <div class="hobbies-grid">
@@ -49,14 +49,15 @@ order: 6
     <div class="hobby-card-content">
       <span class="hobby-card-icon">🐾</span>
       <h3>Cat Advocacy</h3>
-      <p>Outside of my professional work, I volunteer my time fostering cats and caring for community cats. I provide food and help connect adoptable cats with loving homes whenever possible. I believe that small, consistent acts of kindness can make a meaningful difference in the lives of animals and the communities they live in. This page documents some of the cats I've cared for, their stories, and the rewarding journey of fostering and supporting local feline communities.</p>
+      <p>Outside of my work, I volunteer my time fostering cats and caring for community cats. I provide food and help connect adoptable cats with forever homes whenever possible. I believe that small, consistent acts of kindness can make a meaningful difference in the lives of animals and the communities they live in. This page documents some of the cats I've cared for since 2022, their stories, and the rewarding journey of fostering and supporting local feline communities.</p>
       
       <!-- <ul class="hobby-highlights">
         <li>Providing safe spaces for rescue cats</li>
         <li>Socializing kittens for adoption</li>
         <li>Supporting local animal shelters</li>
         <li>Caring for cats through Rover</li>
-      </ul> -->
+      </ul> 
+      -->
       
       <div style="margin-top: 1rem;">
         <a href="/cats/" class="hobby-link" style="color: #667eea; text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; gap: 0.5rem;">

@@ -4,7 +4,9 @@ title: Cat Advocacy
 permalink: /cats/
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
 <link rel="stylesheet" href="/assets/css/cat-fostering.css">
+<link rel="stylesheet" href="/assets/css/cat-slider-splide.css">
 
 <!-- Paintable Canvas Header -->
 <!-- <div class="paintable-header">
@@ -49,21 +51,30 @@ permalink: /cats/
 <!-- Kiki -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-kiki">
-          <img src="/assets/Cats/Kiki/kiki-01.jpg" alt="Kiki">
-          <img src="/assets/Cats/Kiki/kiki-02.jpg" alt="Kiki">
-          <img src="/assets/Cats/Kiki/kiki-03.jpg" alt="Kiki">
-          <img src="/assets/Cats/Kiki/kiki-04.jpg" alt="Kiki">
-          <img src="/assets/Cats/Kiki/kiki-05.jpg" alt="Kiki">
-          <img src="/assets/Cats/Kiki/kiki-06.jpg" alt="Kiki">
-        </div>
-     <div class="photo-nav">
-      <span class="photo-dot active" onclick="scrollToPhoto('slider-kiki', 0, this)"></span>
-      <span class="photo-dot" onclick="scrollToPhoto('slider-kiki', 1, this)"></span>
-      <span class="photo-dot active" onclick="scrollToPhoto('slider-kiki', 2, this)"></span>
-      <span class="photo-dot" onclick="scrollToPhoto('slider-kiki', 3, this)"></span>
-      <span class="photo-dot active" onclick="scrollToPhoto('slider-kiki', 4, this)"></span>
-      <span class="photo-dot" onclick="scrollToPhoto('slider-kiki', 5, this)"></span>
+        <div class="splide" id="slider-kiki">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Kiki/kiki-01.jpg" alt="Kiki">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Kiki/kiki-02.jpg" alt="Kiki">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Kiki/kiki-03.jpg" alt="Kiki">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Kiki/kiki-04.jpg" alt="Kiki">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Kiki/kiki-05.jpg" alt="Kiki">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Kiki/kiki-06.jpg" alt="Kiki">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -80,21 +91,30 @@ permalink: /cats/
     <!-- Meelo -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-meelo">
-          <img src="/assets/Cats/Meelo/meelo-01.jpg" alt="Meelo">
-          <img src="/assets/Cats/Meelo/meelo-02.jpg" alt="Meelo">
-          <img src="/assets/Cats/Meelo/meelo-03.jpg" alt="Meelo">
-          <img src="/assets/Cats/Meelo/meelo-04.jpg" alt="Meelo">
-          <img src="/assets/Cats/Meelo/meelo-05.jpg" alt="Meelo">
-          <img src="/assets/Cats/Meelo/meelo-06.jpg" alt="Meelo">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-meelo', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-meelo', 1, this)"></span>
-           <span class="photo-dot active" onclick="scrollToPhoto('slider-meelo', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-meelo', 3, this)"></span> 
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-meelo', 4, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-meelo', 5, this)"></span>
+        <div class="splide" id="slider-meelo">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Meelo/meelo-01.jpg" alt="Meelo">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Meelo/meelo-02.jpg" alt="Meelo">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Meelo/meelo-03.jpg" alt="Meelo">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Meelo/meelo-04.jpg" alt="Meelo">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Meelo/meelo-05.jpg" alt="Meelo">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Meelo/meelo-06.jpg" alt="Meelo">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -123,23 +143,33 @@ permalink: /cats/
     <!-- Bashful, Happy, Sneezy -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-bashful">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-01.jpg" alt="Bashful, Happy, Sneezy">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-02.jpg" alt="Bashful, Happy, Sneezy">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-03.jpg" alt="Bashful, Happy, Sneezy">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-04.jpg" alt="Bashful, Happy, Sneezy">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-05.jpg" alt="Bashful, Happy, Sneezy">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-06.jpg" alt="Bashful, Happy, Sneezy">
-        <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-07.jpg" alt="Bashful, Happy, Sneezy">   
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-bashful', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-bashful', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-bashful', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-bashful', 3, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-bashful', 4, this)"></span>
-           <span class="photo-dot active" onclick="scrollToPhoto('slider-bashful', 5, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-bashful', 6, this)"></span>
+        <div class="splide" id="slider-bashful">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-01.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-02.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-03.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-04.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-05.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-06.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Bashful, Happy, Sneezy/bashful-happy-sneezy-07.jpg" alt="Bashful, Happy, Sneezy">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -156,17 +186,24 @@ permalink: /cats/
     <!-- Gary, Chris, Mattie -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-gary">
-          <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-02.jpg" alt="Gary, Chris, Mattie">
-          <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-03.jpg" alt="Gary, Chris, Mattie">
-          <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-04.jpg" alt="Gary, Chris, Mattie">
-          <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-05.jpg" alt="Gary, Chris, Mattie">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-gary', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-gary', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-gary', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-gary', 3, this)"></span>
+        <div class="splide" id="slider-gary">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-02.jpg" alt="Gary, Chris, Mattie">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-03.jpg" alt="Gary, Chris, Mattie">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-04.jpg" alt="Gary, Chris, Mattie">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Gary, Chris, Mattie/gary-chris-mattie-05.jpg" alt="Gary, Chris, Mattie">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -183,19 +220,27 @@ permalink: /cats/
     <!-- Woodland, Cuddlington, Farrah Pawcett -->
   <div class="cat-card">
     <div class="cat-photos">
-      <div class="photo-slider" id="slider-woodland">
-        <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-05.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
-        <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-06.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
-        <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-07.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
-        <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-08.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
-        <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-09.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-woodland', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-woodland', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-woodland', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-woodland', 3, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-woodland', 4, this)"></span>
+      <div class="splide" id="slider-woodland">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-05.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-06.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-07.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-08.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Foster Cats/Woodland, Cuddlington, Farrah pawcett/woodland-cuddlington-farrah-pawcett-09.jpg" alt="Woodland, Cuddlington, Farrah Pawcett">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -211,8 +256,8 @@ permalink: /cats/
 
     <!-- Bubbles, Boby, Taquita, Fajita -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <img src="/assets/Cats/Foster Cats/Bubbles, Boby, Taquita, Fajita/bubbles-boby-taquita-fajita-01.jpg" alt="Bubbles, Boby, Taquita, Fajita" class="single-photo">
+      <div class="cat-photos cat-photos-simple">
+        <img src="/assets/Cats/Foster Cats/Bubbles, Boby, Taquita, Fajita/bubbles-boby-taquita-fajita-01.jpg" alt="Bubbles, Boby, Taquita, Fajita" class="cat-photo-single">
       </div>
       <div class="cat-info">
         <h3 class="cat-name">Bubbles, Boby, Taquita & Fajita</h3>
@@ -236,16 +281,10 @@ permalink: /cats/
     
     <!-- Nika -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <div class="photo-slider" id="slider-Nika">
-          <img src="/assets/Cats/Cat Boarding/Nika/nika-02.jpg" alt="Nika">
-          <img src="/assets/Cats/Cat Boarding/Nika/nika-03.jpg" alt="Nika">
+      <div class="cat-photos cat-photos-dual">
+          <img src="/assets/Cats/Cat Boarding/Nika/nika-02.jpg" alt="Nika" class="cat-photo">
+          <img src="/assets/Cats/Cat Boarding/Nika/nika-03.jpg" alt="Nika" class="cat-photo">
         </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-Nika', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-Nika', 1, this)"></span>
-        </div>
-      </div>
         <div class="cat-info">
           <h3 class="cat-name">Nika</h3>
           <div class="cat-details">
@@ -260,15 +299,21 @@ permalink: /cats/
   <!-- Ross -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-Ross">
-          <img src="/assets/Cats/Cat Boarding/Ross/ross-01.jpg" alt="Ross">
-          <img src="/assets/Cats/Cat Boarding/Ross/ross-02.jpg" alt="Ross">
-          <img src="/assets/Cats/Cat Boarding/Ross/ross-03.jpg" alt="Ross">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-Ross', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-Ross', 1, this)"></span>
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-Ross', 2, this)"></span>
+        <div class="splide" id="slider-Ross">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Boarding/Ross/ross-01.jpg" alt="Ross">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Boarding/Ross/ross-02.jpg" alt="Ross">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Boarding/Ross/ross-03.jpg" alt="Ross">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
         <div class="cat-info">
@@ -285,15 +330,21 @@ permalink: /cats/
     <!-- Wazu -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-Wazu">
-          <img src="/assets/Cats/Cat Boarding/Wazu/wazu-01.jpg" alt="Wazu">
-          <img src="/assets/Cats/Cat Boarding/Wazu/wazu-02.jpg" alt="Wazu">
-          <img src="/assets/Cats/Cat Boarding/Wazu/wazu-03.jpg" alt="Wazu">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-Wazu', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-Wazu', 1, this)"></span>
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-Wazu', 2, this)"></span>
+        <div class="splide" id="slider-Wazu">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Boarding/Wazu/wazu-01.jpg" alt="Wazu">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Boarding/Wazu/wazu-02.jpg" alt="Wazu">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Boarding/Wazu/wazu-03.jpg" alt="Wazu">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
         <div class="cat-info">
@@ -309,16 +360,10 @@ permalink: /cats/
 
     <!-- Simba -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <div class="photo-slider" id="slider-simba">
-          <img src="/assets/Cats/Cat Sitting/Simba/simba-03.jpg" alt="Simba">
-          <img src="/assets/Cats/Cat Sitting/Simba/simba-02-dup1.jpg" alt="Simba">
+      <div class="cat-photos cat-photos-dual">
+          <img src="/assets/Cats/Cat Sitting/Simba/simba-03.jpg" alt="Simba" class="cat-photo">
+          <img src="/assets/Cats/Cat Sitting/Simba/simba-02-dup1.jpg" alt="Simba" class="cat-photo">
         </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-simba', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-simba', 1, this)"></span>
-        </div>
-      </div>
       <div class="cat-info">
         <h3 class="cat-name">Simba</h3>
         <div class="cat-details">
@@ -332,12 +377,8 @@ permalink: /cats/
 
     <!-- Silvey -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <img src="/assets/Cats/Cat Sitting/Silvey/silvey-02.jpg" alt="Silvey" class="single-photo">
-        <!-- <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-simba', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-simba', 1, this)"></span>
-        </div> -->
+      <div class="cat-photos cat-photos-simple">
+        <img src="/assets/Cats/Cat Sitting/Silvey/silvey-02.jpg" alt="Silvey" class="cat-photo-single">
       </div>
       <div class="cat-info">
         <h3 class="cat-name">Silvey</h3>
@@ -354,56 +395,33 @@ permalink: /cats/
      <!-- Sir Honda -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-Sir">
-          <img src="/assets/Cats/Cat Sitting/Sir Honda/sir-honda-01.jpg" alt="Simba">
-        </div>
-        <!-- <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-simba', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-simba', 1, this)"></span>
-        </div> -->
-      </div>
-      <div class="cat-info">
-        <h3 class="cat-name">Sir Honda</h3>
-        <div class="cat-details">
-          <span class="cat-age">Young cat</span>
-          <span class="cat-status sitting">Cat Sitting</span>
-        </div>
-        <p class="cat-story">Sir Honda was found under a car, and you know the name of the car!</p>
-        <div class="cat-dates">📅 Cared for: 2026</div>
-      </div>
-    </div>
-
-    
-  </div>
-</div>
-
-<!-- Community Cats -->
-<div class="cat-section">
-  <h2>🌳 Porch Cats and Community Cats </h2>
-  <p class="section-description">Stray and community cats I've cared for, providing food, shelter, and love.</p>
-  
-  <div class="cats-grid">
-
-
-    <!-- Mama Cat & Babies -->
-  <div class="cat-card">
-      <div class="cat-photos">
-        <div class="photo-slider" id="slider-mama">
-          <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-01.jpg" alt="Mama Cat and Babies">
-          <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-02.jpg" alt="Mama Cat and Babies">
-          <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-03.jpg" alt="Mama Cat and Babies">
-          <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-04.jpg" alt="Mama Cat and Babies">
-          <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-05.jpg" alt="Mama Cat and Babies">
-           <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-06.jpg" alt="Mama Cat and Babies">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-mama', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-mama', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-mama', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-mama', 3, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-mama', 4, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-mama', 5, this)"></span>
-          
+        <div class="splide" id="slider-Sir">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Cat Sitting/Sir Honda/sir-honda-01.jpg" alt="Simba">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-01.jpg" alt="Mama Cat and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-02.jpg" alt="Mama Cat and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-03.jpg" alt="Mama Cat and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-04.jpg" alt="Mama Cat and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-05.jpg" alt="Mama Cat and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Mamma cat & her babies/mamma-cat-her-babies-06.jpg" alt="Mama Cat and Babies">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
   </div>
       <div class="cat-info">
@@ -419,16 +437,10 @@ permalink: /cats/
     
   <!-- Garfield -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <div class="photo-slider" id="slider-garfield">
-          <img src="/assets/Cats/Porch Cats/Garfield/garfield-01.jpg" alt="Garfield">
-          <img src="/assets/Cats/Porch Cats/Garfield/garfield-02.jpg" alt="Garfield">
+      <div class="cat-photos cat-photos-dual">
+          <img src="/assets/Cats/Porch Cats/Garfield/garfield-01.jpg" alt="Garfield" class="cat-photo">
+          <img src="/assets/Cats/Porch Cats/Garfield/garfield-02.jpg" alt="Garfield" class="cat-photo">
         </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-garfield', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-garfield', 1, this)"></span>
-        </div>
-      </div>
       <div class="cat-info">
         <h3 class="cat-name">Garfield</h3>
         <div class="cat-details">
@@ -444,15 +456,21 @@ permalink: /cats/
   <!-- Penelope and Babies -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-penelope">
-          <img src="/assets/Cats/Porch Cats/Penelope and Babies/penelope-and-babies-01.jpg" alt="Penelope and Babies">
-          <img src="/assets/Cats/Porch Cats/Penelope and Babies/penelope-and-babies-02.jpg" alt="Penelope and Babies">
-          <img src="/assets/Cats/Porch Cats/Penelope and Babies/penelope-and-babies-03.jpg" alt="Penelope and Babies">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-penelope', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-penelope', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-penelope', 2, this)"></span>
+        <div class="splide" id="slider-penelope">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Penelope and Babies/penelope-and-babies-01.jpg" alt="Penelope and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Penelope and Babies/penelope-and-babies-02.jpg" alt="Penelope and Babies">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Penelope and Babies/penelope-and-babies-03.jpg" alt="Penelope and Babies">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -468,8 +486,8 @@ permalink: /cats/
 
     <!-- Ross -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <img src="/assets/Cats/Porch Cats/Ross/ross-02.jpg" alt="Ross" class="single-photo">
+      <div class="cat-photos cat-photos-simple">
+        <img src="/assets/Cats/Porch Cats/Ross/ross-02.jpg" alt="Ross" class="cat-photo-single">
       </div>
       <div class="cat-info">
         <h3 class="cat-name">Ross</h3>
@@ -485,19 +503,27 @@ permalink: /cats/
   <!-- Grumpy -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-grumpy">
-          <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-01.jpg" alt="Grumpy">
-          <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-02.jpg" alt="Grumpy">
-          <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-03.jpg" alt="Grumpy">
-          <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-04.jpg" alt="Grumpy">
-          <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-05.jpg" alt="Grumpy">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-grumpy', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-grumpy', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-grumpy', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-grumpy', 3, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-grumpy', 4, this)"></span>
+        <div class="splide" id="slider-grumpy">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-01.jpg" alt="Grumpy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-02.jpg" alt="Grumpy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-03.jpg" alt="Grumpy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-04.jpg" alt="Grumpy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Grumpy/grumpy-05.jpg" alt="Grumpy">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -514,17 +540,24 @@ permalink: /cats/
   <!-- Hagrid -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-hagrid">
-          <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-01.jpg" alt="Hagrid">
-          <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-02.jpg" alt="Hagrid">
-          <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-03.jpg" alt="Hagrid">
-          <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-04.jpg" alt="Hagrid">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-hagrid', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-hagrid', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-hagrid', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-hagrid', 3, this)"></span>
+        <div class="splide" id="slider-hagrid">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-01.jpg" alt="Hagrid">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-02.jpg" alt="Hagrid">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-03.jpg" alt="Hagrid">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Hagrid/hagrid-04.jpg" alt="Hagrid">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -542,16 +575,10 @@ permalink: /cats/
 
   <!-- Lucy -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <div class="photo-slider" id="slider-lucy">
-          <img src="/assets/Cats/Porch Cats/Lucy/lucy-01.jpg" alt="Lucy">
-          <img src="/assets/Cats/Porch Cats/Lucy/lucy-02.jpg" alt="Lucy">
+      <div class="cat-photos cat-photos-dual">
+          <img src="/assets/Cats/Porch Cats/Lucy/lucy-01.jpg" alt="Lucy" class="cat-photo">
+          <img src="/assets/Cats/Porch Cats/Lucy/lucy-02.jpg" alt="Lucy" class="cat-photo">
         </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-lucy', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-lucy', 1, this)"></span>
-        </div>
-      </div>
       <div class="cat-info">
         <h3 class="cat-name">Lucy</h3>
         <div class="cat-details">
@@ -566,19 +593,27 @@ permalink: /cats/
     <!-- Baby Lucy -->
   <div class="cat-card">
       <div class="cat-photos">
-        <div class="photo-slider" id="slider-babylucy">
-          <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-01.jpg" alt="Baby Lucy">
-          <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-02.jpg" alt="Baby Lucy">
-          <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-03.jpg" alt="Baby Lucy">
-          <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-04.jpg" alt="Baby Lucy">
-          <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-05.jpg" alt="Baby Lucy">
-        </div>
-        <div class="photo-nav">
-          <span class="photo-dot active" onclick="scrollToPhoto('slider-babylucy', 0, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-babylucy', 1, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-babylucy', 2, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-babylucy', 3, this)"></span>
-          <span class="photo-dot" onclick="scrollToPhoto('slider-babylucy', 4, this)"></span>
+        <div class="splide" id="slider-babylucy">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-01.jpg" alt="Baby Lucy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-02.jpg" alt="Baby Lucy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-03.jpg" alt="Baby Lucy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-04.jpg" alt="Baby Lucy">
+              </li>
+              <li class="splide__slide">
+                <img src="/assets/Cats/Porch Cats/Baby Lucy/baby-lucy-05.jpg" alt="Baby Lucy">
+              </li>
+            </ul>
+          </div>
+          <ul class="splide__pagination"></ul>
         </div>
       </div>
       <div class="cat-info">
@@ -594,8 +629,8 @@ permalink: /cats/
 
   <!-- Bluey -->
   <div class="cat-card">
-      <div class="cat-photos">
-        <img src="/assets/Cats/Porch Cats/Bluey/bluey-01.jpg" alt="Bluey" class="single-photo">
+      <div class="cat-photos cat-photos-simple">
+        <img src="/assets/Cats/Porch Cats/Bluey/bluey-01.jpg" alt="Bluey" class="cat-photo-single">
       </div>
       <div class="cat-info">
         <h3 class="cat-name">Bluey</h3>
@@ -611,33 +646,34 @@ permalink: /cats/
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
 <script>
-function scrollToPhoto(sliderId, index, dotElement) {
-  const slider = document.getElementById(sliderId);
-  const scrollWidth = slider.scrollWidth / slider.children.length;
-  slider.scrollTo({ left: scrollWidth * index, behavior: 'smooth' });
+// Initialize Splide sliders for all cat cards
+document.addEventListener('DOMContentLoaded', function() {
+  const splides = document.querySelectorAll('.splide');
   
-  // Update active dot
-  const dots = dotElement.parentElement.children;
-  for (let dot of dots) {
-    dot.classList.remove('active');
-  }
-  dotElement.classList.add('active');
-}
-
-// Auto-update active dot on manual scroll
-document.querySelectorAll('.photo-slider').forEach(slider => {
-  slider.addEventListener('scroll', function() {
-    const scrollPos = this.scrollLeft;
-    const itemWidth = this.scrollWidth / this.children.length;
-    const activeIndex = Math.round(scrollPos / itemWidth);
-    
-    const navDots = this.nextElementSibling?.children;
-    if (navDots) {
-      for (let i = 0; i < navDots.length; i++) {
-        navDots[i].classList.toggle('active', i === activeIndex);
+  splides.forEach(splideElement => {
+    new Splide(splideElement, {
+      type: 'loop',
+      perPage: 3,
+      autoplay: false,
+      pagination: true,
+      arrows: true,
+      keyboard: true,
+      gap: 8,
+      speed: 400,
+      drag: true,
+      breakpoints: {
+        768: {
+          perPage: 2,
+          gap: 6,
+        },
+        480: {
+          perPage: 1,
+          gap: 0,
+        }
       }
-    }
+    }).mount();
   });
 });
 </script>

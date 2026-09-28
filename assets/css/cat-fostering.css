@@ -167,69 +167,13 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-/* Photo Gallery Slider */
+/* Photo Gallery - Now using Splide.js */
 .cat-photos {
   position: relative;
   width: 100%;
   height: 200px;
   overflow: hidden;
   background: #f5f5f5;
-}
-
-.photo-slider {
-  display: flex;
-  height: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-
-.photo-slider::-webkit-scrollbar {
-  display: none;
-}
-
-.photo-slider img {
-  flex: 0 0 100%;
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  scroll-snap-align: start;
-}
-
-.photo-nav {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 6px;
-  z-index: 2;
-}
-
-.photo-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.photo-dot:hover,
-.photo-dot.active {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* Single Image */
-.cat-photos img.single-photo {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  flex: none;
 }
 
 /* Cat Info - Compact */
